@@ -231,11 +231,76 @@ impresion:
 
 install:
 	@echo Instalando en /usr/local/bin
-	@cp ./{rosi sandra manolo camellona sevillana rocio manola} /usr/local/bin
-	@cp ./{mopa boxer ATS amiga marranona aceite} /usr/local/bin
-	@cp ./{ordinaria carne perdon maradona espania vos talco popeye cuerpo conosia androcur fisna obesa} /usr/local/bin
-	@cp ./{cuernos cansa} /usr/local/bin
-	
+	@cp -r ./{rosi sandra manolo camellona sevillana rocio manola} /usr/local/bin
+	@cp -r ./{mopa boxer ATS amiga marranona aceite} /usr/local/bin
+	@cp -r ./{ordinaria carne perdon maradona espania vos talco popeye cuerpo conosia androcur fisna obesa} /usr/local/bin
+	@cp -r ./{cuernos cansa} /usr/local/bin
+
+install-ubuntu:
+	@echo Instalando en Ubuntu Server
+	@cp rosi /usr/local/bin
+	@cp camellona /usr/local/bin
+	@cp manola /usr/local/bin 
+	@cp manolo /usr/local/bin
+	@cp rocio /usr/local/bin
+	@cp rosi /usr/local/bin
+	@cp sandra /usr/local/bin
+	@cp sevillana /usr/local/bin
+	@cp aceite /usr/local/bin
+	@cp amiga /usr/local/bin
+	@cp ATS /usr/local/bin
+	@cp boxer /usr/local/bin
+	@cp marranona /usr/local/bin
+	@cp mopa /usr/local/bin
+	@cp androcur /usr/local/bin
+	@cp carne /usr/local/bin
+	@cp conosia /usr/local/bin
+	@cp cuerpo /usr/local/bin
+	@cp espania /usr/local/bin
+	@cp fisna /usr/local/bin
+	@cp maradona /usr/local/bin
+	@cp obesa /usr/local/bin
+	@cp ordinaria /usr/local/bin
+	@cp perdon /usr/local/bin
+	@cp popeye /usr/local/bin
+	@cp talco /usr/local/bin
+	@cp vos /usr/local/bin
+	@cp cansa /usr/local/bin
+	@cp cuernos /usr/local/bin
+
+
+uninstall-ubuntu:
+	@echo Instalando en Ubuntu Server
+	@rm /usr/local/bin/rosi
+	@rm /usr/local/bin/camellona 
+	@rm /usr/local/bin/manola  
+	@rm /usr/local/bin/manolo 
+	@rm /usr/local/bin/rocio 
+	@rm /usr/local/bin/rosi 
+	@rm /usr/local/bin/sandra 
+	@rm /usr/local/bin/sevillana 
+	@rm /usr/local/bin/aceite 
+	@rm /usr/local/bin/amiga 
+	@rm /usr/local/bin/ATS 
+	@rm /usr/local/bin/boxer 
+	@rm /usr/local/bin/marranona 
+	@rm /usr/local/bin/mopa 
+	@rm /usr/local/bin/androcur 
+	@rm /usr/local/bin/carne 
+	@rm /usr/local/bin/conosia 
+	@rm /usr/local/bin/cuerpo 
+	@rm /usr/local/bin/espania 
+	@rm /usr/local/bin/fisna 
+	@rm /usr/local/bin/maradona 
+	@rm /usr/local/bin/obesa 
+	@rm /usr/local/bin/ordinaria 
+	@rm /usr/local/bin/perdon 
+	@rm /usr/local/bin/popeye 
+	@rm /usr/local/bin/talco 
+	@rm /usr/local/bin/vos 
+	@rm /usr/local/bin/cansa 
+	@rm /usr/local/bin/cuernos 
+
 	
 uninstall:
 	@rm /usr/local/bin/{rosi sandra manolo camellona sevillana rocio manola}

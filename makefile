@@ -231,10 +231,10 @@ impresion:
 
 install:
 	@echo Instalando en /usr/local/bin
-	@mv ./{rosi sandra manolo camellona sevillana rocio manola} /usr/local/bin
-	@mv ./{mopa boxer ATS amiga marranona aceite} /usr/local/bin
-	@mv ./{ordinaria carne perdon maradona espania vos talco popeye cuerpo conosia androcur fisna obesa} /usr/local/bin
-	@mv ./{cuernos cansa} /usr/local/bin
+	@cp ./{rosi sandra manolo camellona sevillana rocio manola} /usr/local/bin
+	@cp ./{mopa boxer ATS amiga marranona aceite} /usr/local/bin
+	@cp ./{ordinaria carne perdon maradona espania vos talco popeye cuerpo conosia androcur fisna obesa} /usr/local/bin
+	@cp ./{cuernos cansa} /usr/local/bin
 	
 	
 uninstall:
@@ -247,5 +247,8 @@ uninstall:
 clean: banner transparente
 	@echo Limpiando todos los archivos ejecutables
 	@tput sgr0;
-	@rm ./{ATS,amiga,aceite,mopa,rosi,ordinaria,sandra,carne,perdon,maradona,espania,vos,talco,popeye,cuerpo,manolo,camellona,sevillana,boxer,conosia,rocio,manola,cuernos,cansa,androcur,fisna,obesa,marranona}
+	@rm ./{rosi sandra manolo camellona sevillana rocio manola}
+	@rm ./{mopa boxer ATS amiga marranona aceite}
+	@rm ./{ordinaria carne perdon maradona espania vos talco popeye cuerpo conosia androcur fisna obesa}
+	@rm ./{cuernos cansa}
 

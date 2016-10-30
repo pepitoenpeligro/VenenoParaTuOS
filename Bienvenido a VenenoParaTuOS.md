@@ -2,7 +2,7 @@ Bienvenido a VenenoParaTuOS
 ===================
 
 
-**VenenoParaTuOS** es una colecciÃ³n de frases de la veneno incluidas en tu sistema operativo. PodrÃ¡s lanzarlos en tu terminal cuando quieras.
+**VenenoParaTuOS** es una colección de frases de la veneno incluidas en tu sistema operativo. Podrás lanzarlos en tu terminal cuando quieras.
 
 Actualmente hay 28 recursos disponibles.
 
@@ -13,7 +13,7 @@ Actualmente hay 28 recursos disponibles.
 Instalando
 -------------
 
-VenenoParaTuOS actualmente estÃ¡ disponible para:
+VenenoParaTuOS actualmente está disponible para:
 
  1. OS X (necesitas brew instalado)
  2. Ubuntu
@@ -33,7 +33,7 @@ En Ubuntu:
 
 Recursos disponibles
 -------------------
-Todos los recursos estÃ¡n organizados segÃºn temÃ¡tica (travestis, marisol, nova, propio)
+Todos los recursos estÃ¡n organizados según temática (travestis, marisol, nova, propio)
 
  1. camellona
  2. manola
@@ -72,8 +72,8 @@ TODO
 
 > **Lista: **
 
-> - InclusiÃ³n de mÃ¡s recursos en la librerÃ­a.
-> - InclusiÃ³n de "minutos" de visionado + url de donde se obtuvo
+> - Inclusión de más recursos en la librería.
+> - Inclusión de "minutos" de visionado + url de donde se obtuvo
 > - Implementaro en base de datos
 
 

@@ -33,7 +33,7 @@ En Ubuntu:
 
 Recursos disponibles
 -------------------
-Todos los recursos estÃ¡n organizados según temática (travestis, marisol, nova, propio)
+Todos los recursos están organizados según temática (travestis, marisol, nova, propio)
 
  1. camellona
  2. manola

@@ -231,10 +231,18 @@ impresion:
 
 install:
 	@echo Instalando en /usr/local/bin
-	@cp ./{ATS,amiga,aceite,mopa,rosi,ordinaria,sandra,carne,perdon,maradona,espania,vos,talco,popeye,cuerpo,manolo,camellona,sevillana,boxer,conosia,rocio,manola,cuernos,cansa,androcur,fisna,obesa,marranona} /usr/local/bin
-
+	@mv ./{rosi sandra manolo camellona sevillana rocio manola} /usr/local/bin
+	@mv ./{mopa boxer ATS amiga marranona aceite} /usr/local/bin
+	@mv ./{ordinaria carne perdon maradona espania vos talco popeye cuerpo conosia androcur fisna obesa} /usr/local/bin
+	@mv ./{cuernos cansa} /usr/local/bin
+	
+	
 uninstall:
-	rm /usr/local/bin/{ATS,amiga,aceite,mopa,rosi,ordinaria,sandra,carne,perdon,maradona,espania,vos,talco,popeye,cuerpo,manolo,camellona,sevillana,boxer,conosia,rocio,manola,cuernos,cansa,androcur,fisna,obesa,marranona}
+	@rm /usr/local/bin/{rosi sandra manolo camellona sevillana rocio manola}
+	@rm /usr/local/bin/{mopa boxer ATS amiga marranona aceite}
+	@rm /usr/local/bin/{ordinaria carne perdon maradona espania vos talco popeye cuerpo conosia androcur fisna obesa}
+	@rm /usr/local/bin/{cuernos cansa}
+	
 
 clean: banner transparente
 	@echo Limpiando todos los archivos ejecutables

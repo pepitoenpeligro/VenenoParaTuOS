@@ -37,8 +37,8 @@ En Ubuntu:
 En Ubuntu Server 16:
 
     $ sudo apt-get install toilet
-    $ make
-    $ make install-ubuntuserver
+    $ sudo make
+    $ sudo make install-ubuntuserver
 
 
 Recursos disponibles

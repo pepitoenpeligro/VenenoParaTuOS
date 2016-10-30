@@ -17,6 +17,7 @@ VenenoParaTuOS actualmente está disponible para:
 
  1. OS X (necesitas brew instalado)
  2. Ubuntu
+ 3. Ubuntu Server 16
 
 ---
 En OS X:
@@ -24,11 +25,20 @@ En OS X:
     $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
     $ brew install toilet
    
-   ---
+---
+
 En Ubuntu:
 
     $ sudo apt-get install toilet
     $ make
+
+---
+
+En Ubuntu Server 16:
+
+    $ sudo apt-get install toilet
+    $ make
+    $ make install-ubuntu
 
 
 Recursos disponibles

@@ -236,7 +236,7 @@ install:
 	@cp -r ./{ordinaria carne perdon maradona espania vos talco popeye cuerpo conosia androcur fisna obesa} /usr/local/bin
 	@cp -r ./{cuernos cansa} /usr/local/bin
 
-install-ubuntu:
+install-ubuntuserver:
 	@echo Instalando en Ubuntu Server
 	@cp rosi /usr/local/bin
 	@cp camellona /usr/local/bin
@@ -269,7 +269,7 @@ install-ubuntu:
 	@cp cuernos /usr/local/bin
 
 
-uninstall-ubuntu:
+uninstall-ubuntuserver:
 	@echo Instalando en Ubuntu Server
 	@rm /usr/local/bin/rosi
 	@rm /usr/local/bin/camellona 
@@ -300,6 +300,40 @@ uninstall-ubuntu:
 	@rm /usr/local/bin/vos 
 	@rm /usr/local/bin/cansa 
 	@rm /usr/local/bin/cuernos 
+
+
+clean-ubuntuserver:
+	@echo Limpiando todos los archivos ejecutables
+	@tput sgr0;
+	@rm ./rosi
+	@rm ./camellona 
+	@rm ./manola  
+	@rm ./manolo 
+	@rm ./rocio 
+	@rm ./rosi 
+	@rm ./sandra 
+	@rm ./sevillana 
+	@rm ./aceite 
+	@rm ./amiga 
+	@rm ./ATS 
+	@rm ./boxer 
+	@rm ./marranona 
+	@rm ./mopa 
+	@rm ./androcur 
+	@rm ./carne 
+	@rm ./conosia 
+	@rm ./cuerpo 
+	@rm ./espania 
+	@rm ./fisna 
+	@rm ./maradona 
+	@rm ./obesa 
+	@rm ./ordinaria 
+	@rm ./perdon 
+	@rm ./popeye 
+	@rm ./talco 
+	@rm ./vos 
+	@rm ./cansa 
+	@rm ./cuernos 
 
 	
 uninstall:

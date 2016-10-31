@@ -12,7 +12,7 @@ void Audio(){
 	system("play -q /usr/local/bin/audiosVenenisticos/marisol/cirujana.mp3 trim 05:08.7 00:07.2 &");
 }
 
-int main(){
+int main(int argc, char* argv[]){
 	
 	if(argc > 1 && (string)argv[1] == "audio"){
 		Audio();

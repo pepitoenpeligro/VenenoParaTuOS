@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int main(){
+int main(int argc, char* argv[]){
 
 	cout << "Jamás he criticao a ninguna travesti." << endl;
 	cout << "Yo sólo hablé de Bibiana Fernández porque cuando yo vine a madrid" << endl;

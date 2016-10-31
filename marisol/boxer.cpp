@@ -14,7 +14,7 @@ void Text(){
 void Audio(){
 	system("play -q /usr/local/bin/audiosVenenisticos/marisol/cirujana.mp3 trim 06:08 00:11.9 &");
 }
-int main(){
+int main(int argc, char* argv[]){
 	
 	if(argc > 1 && (string)argv[1] == "audio"){
 		Audio();

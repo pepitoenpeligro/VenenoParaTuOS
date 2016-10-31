@@ -3,7 +3,7 @@
 #include <stdlib.h>
 using namespace std;
 
-void Text{
+void Text(){
 	cout << "A la Ana la Sevillana, a la Ana la Sevillana," << endl;
 	cout << "no me da miedo de ti maricón, de nunca," << endl;
 	cout << "a la Ana la Sevilla cuando fui yo a tu casa " << endl;
@@ -15,7 +15,7 @@ void Text{
 void Audio(){
 	system("play -q /usr/local/bin/audiosVenenisticos/marisol/cirujana.mp3 trim 06:20.6 00:16.7 &");
 }
-int main(){
+int main(int argc, char* argv[]){
 	
 	if(argc > 1 && (string)argv[1] == "audio"){
 		Audio();

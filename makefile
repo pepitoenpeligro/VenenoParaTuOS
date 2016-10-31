@@ -2,76 +2,30 @@
 ## 			Veneno Frases 	   		##
 ######################################
 
-##################
-# @tput bold; -> negrita
-# @tput smul; -> Inicio subrayado
-# @tput rmul; -> Fin subrayado
-#
-#
-# @tput setaf 0; -> Negro
-# @tput setaf 1; -> Rojo sangre, rojo pasion, rojo puton
-# @tput setaf 2; -> verde
-# @tput setaf 3; -> Amarillo mierda
-# @tput setaf 4; -> Azul mierda
-# @tput setaf 5; -> Magenta
-# @tput setaf 6; -> Cyan
-# @tput setaf 7; -> White
-# @tput setaf 8; -> gris oscuro
-#
-#
-# @sgr0 -> Devuelve valores por defecto
-###################
 
-#brew install toilet
-#sudo apt-get install
+#Ejecutar con sudo mejor
 
-#@sudo apt-get install toilet
 # Objetivos importantes
 all: dependencias banner impresion rojo travestis verde marisol magenta nova negro propio restablecer install
 
+#=======================================================================================================================#
 
-dependencias:
-	@echo Necesitas tener toilet
-	@echo sudo apt-get install toilet
+# Objetivos agrupados por temática 
+# ROJO = travestis
+# Verde  = marisol
+# Magenta = nova
+# Negro = propios
 
-banner: 
-	@toilet -f bigmono9 -F gay "La Veneno"
-rojo: 
-	@tput bold;
-	@tput setaf 1;
-
-verde:
-	@tput bold;
-	@tput setaf 2;
-
-magenta:
-	@tput bold;
-	@tput setaf 5;
-
-negro:
-	@tput bold;
-	@tput setaf 5;
-
-transparente:
-	@tput setaf 7;
-
-restablecer:
-	@tput sgr0;
-
-	
-# Objetivos agrupados por temática
-# Rojo
 travestis: rosi sandra manolo camellona sevillana rocio manola		
 
-# Verde
 marisol:  mopa boxer ATS amiga marranona aceite
-	
-#Rosa
+
 nova: ordinaria carne perdon maradona espania vos talco popeye cuerpo conosia androcur fisna obesa
-	
-#Negro
+
 propio: cuernos cansa
-	
+
+
+#=======================================================================================================================#
 
 
 # Objetivos separados
@@ -215,29 +169,31 @@ marranona:
 	@echo "\t"Compilando marranona
 	@echo "\t"Fecha: Domigo 30 de Octubre de 2016 - 21:00 "\n"
 
-impresion:
-	@echo "\n\n######################################################################################"
-	@tput smul;
-	@echo Compilando todas las frases disponibles de la Veneno
-	@tput rmul;
-	@echo Fecha: Domigo 30 de Octubre de 2016 - 21:00
-	@echo Disponibles: 28 "\n"
-	@echo Hecho con mucho cariño por:
-	@echo "\t"José Antonio Córdoba Gómez "\t\t\t" pepitoenpeligro@gmail.com
-	@echo "\t"Marta Arenas Martínez "\t\t\t\t" martilla311@gmail.com
-	@echo "\t"Miriam Mengíbar Rodríguez "\t\t\t" mirismr@gmail.com
-	@echo "######################################################################################\n\n"
 
 
+#=======================================================================================================================#
+
+
+
+# Instalación standard
 install:
 	@echo Instalando en /usr/local/bin
-	@cp -r ./{rosi sandra manolo camellona sevillana rocio manola} /usr/local/bin
-	@cp -r ./{mopa boxer ATS amiga marranona aceite} /usr/local/bin
-	@cp -r ./{ordinaria carne perdon maradona espania vos talco popeye cuerpo conosia androcur fisna obesa} /usr/local/bin
-	@cp -r ./{cuernos cansa} /usr/local/bin
+	@cp -r ./{rosi,sandra,manolo,camellona,sevillana,rocio,manola} /usr/local/bin
+	@cp -r ./{mopa,boxer,ATS,amiga,marranona,aceite} /usr/local/bin
+	@cp -r ./{ordinaria,carne,perdon,maradona,espania,vos,talco,popeye,cuerpo,conosia,androcur,fisna,obesa} /usr/local/bin
+	@cp -r ./{cuernos,cansa} /usr/local/bin
 
-install-ubuntuserver:
-	@echo Instalando en Ubuntu Server
+# Desinstalación standard
+uninstall:
+	@rm /usr/local/bin/{rosi,sandra,manolo,camellona,sevillana,rocio,manola}
+	@rm /usr/local/bin/{mopa,boxer,ATS,amiga,marranona,aceite}
+	@rm /usr/local/bin/{ordinaria,carne,perdon,maradona,espania,vos,talco,popeye,cuerpo,conosia,androcur,fisna,obesa}
+	@rm /usr/local/bin/{cuernos,cansa}
+
+
+# Instalación forzosa
+install-forced:
+	@echo Instalando de forma forzosa
 	@cp rosi /usr/local/bin
 	@cp camellona /usr/local/bin
 	@cp manola /usr/local/bin 
@@ -269,8 +225,9 @@ install-ubuntuserver:
 	@cp cuernos /usr/local/bin
 
 
-uninstall-ubuntuserver:
-	@echo Instalando en Ubuntu Server
+# Desinstalación forzosa
+uninstall-forced:
+	@echo Desinstalando de forma forzosa
 	@rm /usr/local/bin/rosi
 	@rm /usr/local/bin/camellona 
 	@rm /usr/local/bin/manola  
@@ -302,52 +259,133 @@ uninstall-ubuntuserver:
 	@rm /usr/local/bin/cuernos 
 
 
-clean-ubuntuserver:
-	@echo Limpiando todos los archivos ejecutables
-	@tput sgr0;
-	@rm ./rosi
-	@rm ./camellona 
-	@rm ./manola  
-	@rm ./manolo 
-	@rm ./rocio 
-	@rm ./rosi 
-	@rm ./sandra 
-	@rm ./sevillana 
-	@rm ./aceite 
-	@rm ./amiga 
-	@rm ./ATS 
-	@rm ./boxer 
-	@rm ./marranona 
-	@rm ./mopa 
-	@rm ./androcur 
-	@rm ./carne 
-	@rm ./conosia 
-	@rm ./cuerpo 
-	@rm ./espania 
-	@rm ./fisna 
-	@rm ./maradona 
-	@rm ./obesa 
-	@rm ./ordinaria 
-	@rm ./perdon 
-	@rm ./popeye 
-	@rm ./talco 
-	@rm ./vos 
-	@rm ./cansa 
-	@rm ./cuernos 
+
+#=======================================================================================================================#
 
 	
-uninstall:
-	@rm /usr/local/bin/{rosi sandra manolo camellona sevillana rocio manola}
-	@rm /usr/local/bin/{mopa boxer ATS amiga marranona aceite}
-	@rm /usr/local/bin/{ordinaria carne perdon maradona espania vos talco popeye cuerpo conosia androcur fisna obesa}
-	@rm /usr/local/bin/{cuernos cansa}
-	
 
+# Limpiando los ejecutables
 clean: banner transparente
 	@echo Limpiando todos los archivos ejecutables
 	@tput sgr0;
-	@rm ./{rosi sandra manolo camellona sevillana rocio manola}
-	@rm ./{mopa boxer ATS amiga marranona aceite}
-	@rm ./{ordinaria carne perdon maradona espania vos talco popeye cuerpo conosia androcur fisna obesa}
-	@rm ./{cuernos cansa}
+	@rm ./{rosi,sandra,manolo,camellona,sevillana,rocio,manola}
+	@rm ./{mopa,boxer,ATS,amiga,marranona,aceite}
+	@rm ./{ordinaria,carne,perdon,maradona,espania,vos,talco,popeye,cuerpo,conosia,androcur,fisna,obesa}
+	@rm ./{cuernos,cansa}
 
+
+clean-forced:
+	@echo Limpiando todos los archivos ejecutables
+	@tput sgr0;
+	@rm rosi
+	@rm camellona 
+	@rm manola  
+	@rm manolo 
+	@rm rocio 
+	@rm rosi 
+	@rm sandra 
+	@rm sevillana 
+	@rm aceite 
+	@rm amiga 
+	@rm ATS 
+	@rm boxer 
+	@rm marranona 
+	@rm mopa 
+	@rm androcur 
+	@rm carne 
+	@rm conosia 
+	@rm cuerpo 
+	@rm espania 
+	@rm fisna 
+	@rm maradona 
+	@rm obesa 
+	@rm ordinaria 
+	@rm perdon 
+	@rm popeye 
+	@rm talco 
+	@rm vos 
+	@rm cansa 
+	@rm cuernos 
+
+
+
+
+#=======================================================================================================================#
+
+
+
+dependencias:
+	@echo Necesitas tener toilet
+	@echo sudo apt-get install toilet
+
+banner: 
+	@toilet -f bigmono9 -F gay "La Veneno"
+
+
+
+impresion:
+	@echo "\n\n######################################################################################"
+	@tput smul;
+	@echo Compilando todas las frases disponibles de la Veneno
+	@tput rmul;
+	@echo Fecha: Domigo 30 de Octubre de 2016 - 21:00
+	@echo Disponibles: 28 "\n"
+	@echo Hecho con mucho cariño por:
+	@echo "\t"José Antonio Córdoba Gómez "\t\t\t" pepitoenpeligro@gmail.com
+	@echo "\t"Marta Arenas Martínez "\t\t\t\t" martilla311@gmail.com
+	@echo "\t"Miriam Mengíbar Rodríguez "\t\t\t" mirismr@gmail.com
+	@echo "######################################################################################\n\n"
+
+
+#=======================================================================================================================#
+
+
+
+##################
+# @tput bold; -> negrita
+# @tput smul; -> Inicio subrayado
+# @tput rmul; -> Fin subrayado
+#
+#
+# @tput setaf 0; -> Negro
+# @tput setaf 1; -> Rojo sangre, rojo pasion, rojo puton
+# @tput setaf 2; -> verde
+# @tput setaf 3; -> Amarillo mierda
+# @tput setaf 4; -> Azul mierda
+# @tput setaf 5; -> Magenta
+# @tput setaf 6; -> Cyan
+# @tput setaf 7; -> White
+# @tput setaf 8; -> gris oscuro
+#
+#
+# @sgr0 -> Devuelve valores por defecto
+###################
+
+#brew install toilet OS X
+#sudo apt-get install Ubuntu
+
+
+
+
+#Colores
+rojo: 
+	@tput bold;
+	@tput setaf 1;
+
+verde:
+	@tput bold;
+	@tput setaf 2;
+
+magenta:
+	@tput bold;
+	@tput setaf 5;
+
+negro:
+	@tput bold;
+	@tput setaf 5;
+
+transparente:
+	@tput setaf 7;
+
+restablecer:
+	@tput sgr0;

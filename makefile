@@ -6,7 +6,7 @@
 #Ejecutar con sudo mejor
 
 # Objetivos importantes
-all: dependencias banner impresion rojo travestis verde marisol magenta nova negro propio restablecer install
+all: dependencias banner impresion rojo travestis verde marisol magenta nova negro propio restablecer install final
 
 #=======================================================================================================================#
 
@@ -26,6 +26,7 @@ propio: cuernos cansa
 
 
 #=======================================================================================================================#
+
 
 
 # Objetivos separados
@@ -189,6 +190,8 @@ uninstall:
 	@rm /usr/local/bin/{mopa,boxer,ATS,amiga,marranona,aceite}
 	@rm /usr/local/bin/{ordinaria,carne,perdon,maradona,espania,vos,talco,popeye,cuerpo,conosia,androcur,fisna,obesa}
 	@rm /usr/local/bin/{cuernos,cansa}
+	@cat veneno.txt
+	@echo "\n La desinstalación ha sido completada \n\n"
 
 
 # Instalación forzosa
@@ -256,7 +259,9 @@ uninstall-forced:
 	@rm /usr/local/bin/talco 
 	@rm /usr/local/bin/vos 
 	@rm /usr/local/bin/cansa 
-	@rm /usr/local/bin/cuernos 
+	@rm /usr/local/bin/cuernos
+	@cat veneno.txt
+	@echo "\n La desinstalación ha sido completada \n\n"
 
 
 
@@ -313,13 +318,18 @@ clean-forced:
 #=======================================================================================================================#
 
 
+requisitos:
+	@sudo apt-get install toilet
+	@sudo apt-get install sox
 
 dependencias:
 	@echo Necesitas tener toilet
 	@echo sudo apt-get install toilet
+	@echo Para los audios debes tener sox
+	@echo sudo apt-get install sox
 
 banner: 
-	@toilet -f bigmono9 -F gay "La Veneno"
+	@toilet -f bigmono9 -F gay "Veneno Para Tu OS"
 
 
 
@@ -328,7 +338,8 @@ impresion:
 	@tput smul;
 	@echo Compilando todas las frases disponibles de la Veneno
 	@tput rmul;
-	@echo Fecha: Domigo 30 de Octubre de 2016 - 21:00
+	@echo Fecha: Lunes 31 de Octubre de 2016 - 17:00
+	@echo Version 1.0.2
 	@echo Disponibles: 28 "\n"
 	@echo Hecho con mucho cariño por:
 	@echo "\t"José Antonio Córdoba Gómez "\t\t\t" pepitoenpeligro@gmail.com
@@ -337,8 +348,10 @@ impresion:
 	@echo "######################################################################################\n\n"
 
 
-#=======================================================================================================================#
+final:
+	@play sounds/install/ayquerisa.mp3
 
+#=======================================================================================================================#
 
 
 ##################

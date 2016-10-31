@@ -3,7 +3,7 @@
 #include <stdlib.h>
 using namespace std;
 
-void Text(){
+void Texto(){
 	cout << "A la Ana la Sevillana, a la Ana la Sevillana," << endl;
 	cout << "no me da miedo de ti maricón, de nunca," << endl;
 	cout << "a la Ana la Sevilla cuando fui yo a tu casa " << endl;

@@ -3,7 +3,7 @@
 #include <stdlib.h>
 using namespace std;
 
-void Text(){
+void Texto(){
 	cout << "Limpia la casa marranona " << endl;
 	cout << "que tienes el coño que no te lo lavas, marrana" << endl;
 	cout << "y las pelucas tenían hasta palominos. Tenían hasta raspa, maricón " << endl;

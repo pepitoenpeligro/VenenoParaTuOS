@@ -5,7 +5,7 @@
 using namespace std;
 
 
-void Text(){
+void Texto(){
 	cout << "La Rocío de Sevilla,hace más de 30 años que le puso los pechos" << endl;
 	cout << "la silicona se le fue abajo, que parecía las patas de elefante" << endl;
 	cout << "eh que no se podia poner" << endl;

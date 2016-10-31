@@ -3,7 +3,7 @@
 #include <stdlib.h>
 using namespace std;
 
-void Text(){
+void Texto(){
 	cout << "Eres una ladrona,  hay que verte la cara" << endl;
 	cout << "que eres un boxer." << endl;
 	cout << "Has destrozao maricones, solamente por ganar" << endl;

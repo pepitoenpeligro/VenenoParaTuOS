@@ -3,7 +3,7 @@
 #include <stdlib.h>
 using namespace std;
 
-void Text(){
+void Texto(){
 	cout << "¿Pero tú te llevas bien con La Veneno?" << endl;
 	cout << "Yo nunca, pues claro que me he llevao siempre ha sido amiga mía" << endl;
 	cout << "esa foto me la dió hace 14 años" << endl;

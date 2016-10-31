@@ -3,7 +3,7 @@
 #include <stdlib.h> 
 using namespace std;
 
-void Text(){
+void Texto(){
 	cout << "Bueno, mira cuando yo me vine a Madrid" << endl;
 	cout << "a mí, que en paz descanse," << endl;
 	cout << "la Manola, que todos conoceis a la Manola, y ella más," << endl;

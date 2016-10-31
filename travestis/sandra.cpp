@@ -3,7 +3,7 @@
 #include <stdlib.h>
 using namespace std;
 
-void Text(){
+void Texto(){
 	cout << "A la Sandra la Camellona la mateste tú, maricón" << endl;
 }
 

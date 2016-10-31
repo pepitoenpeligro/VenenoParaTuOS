@@ -3,11 +3,11 @@ using namespace std;
 
 int main(){
 	cout << "Sí, la conozco perfectamente" << endl;
-	cout << "Sí, ella p(r)esisamente," << endl;
+	cout << "Sí, ella,mira, p(r)esisamente," << endl;
 	cout << "en el año 96, yo fui a actuar a" << endl;
 	cout << "Isla Fantasia" << endl;
 	cout << "Entonces, como Carmen de Mairena dice" << endl;
-	cout << "es curpa de mi marido, el Italiano" << endl;
+	cout << "es curpa por mi marido, el Italiano" << endl;
 	cout << "me acomplejó de que yo no tenía culo" << endl;
 	cout << "cuando sabéis todos que yo en el  Mississippi" << endl;
 	cout << "tenía un culo espectacular" << endl;
@@ -22,8 +22,8 @@ int main(){
 	cout << "total que la llamé por teléfono"<< endl;
 	cout << "y le digo Marisol mira, por favor" << endl;
 	cout << "ponme un cuartito, y me puso un cuarto que me cobró" << endl;
-	cout << "en el cuarto valía 25000 pesetas entonces" << endl;
-	cout << "cobraba 100 mil peseta el litro, y no ponía siicona" << endl;
+	cout << "en el cuarto valía 25000 peseta que entonces" << endl;
+	cout << "cobraba 100 mil peseta el litro, y no ponía silicona" << endl;
 	cout << "era ASEITE DE AVIONES, ACEITE DE AVIONES" << endl;
 	cout << "ASHIN DE CLARO" << endl;
 	return 0;

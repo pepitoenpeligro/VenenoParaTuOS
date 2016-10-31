@@ -103,5 +103,7 @@ TODO
 		1. Fixed: "aceite.cpp"
 		2. Fixex: "manola.cpp"
 		3. Fixed: "boxer.cpp"
+        4. Fixed: "rocio.cpp"
+        5. Fixed: "sevillana.cpp"
 
 

@@ -7,6 +7,6 @@ int main(){
 	cout << "pa' zalí guapa " << endl;
 	cout << "zal con minifalda" << endl;
 	cout << "mira que piernas tengo, naturales" << endl;
-	cout << "mira que piernas mira que piernas, son mias, enseña las tuyas." << endl;
+	cout << "mira que piernas, mira que piernas, son mias, enseña las tuyas." << endl;
 	return 0;
 }

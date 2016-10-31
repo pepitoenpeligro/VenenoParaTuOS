@@ -1,7 +1,9 @@
 #include <iostream>
+#include <stdio.h>
+#include <stdlib.h>
 using namespace std;
 
-int main(){
+void Texto(){
 	cout << "Sí, la conozco perfectamente" << endl;
 	cout << "Sí, ella,mira, p(r)esisamente," << endl;
 	cout << "en el año 96, yo fui a actuar a" << endl;
@@ -26,6 +28,32 @@ int main(){
 	cout << "cobraba 100 mil peseta el litro, y no ponía silicona" << endl;
 	cout << "era ASEITE DE AVIONES, ACEITE DE AVIONES" << endl;
 	cout << "ASHIN DE CLARO" << endl;
+}
+
+void Audio(){
+	system("play -q /usr/local/bin/audiosVenenisticos/marisol/cirujana.mp3 trim 00:14 63 &");
+}
+
+int main(){
+	
+	if(argc > 1 && (string)argv[1] == "audio"){
+		Audio();
+	}
+
+	if(argc > 1 && (string)argv[1] == "texto"){
+		Texto();
+	}
+
+	if(argc > 2 && (string)argv[1] == "texto" && (string)argv[2] == "audio"){
+		Texto();
+		Audio();
+	}
+
+	if(argc > 2 && (string)argv[1] == "audio" && (string)argv[2] == "texto"){
+		Texto();
+		Audio();
+	}
+
 	return 0;
 }
 

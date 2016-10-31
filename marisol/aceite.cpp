@@ -31,7 +31,7 @@ void Texto(){
 }
 
 void Audio(){
-	system("play -q /usr/local/bin/audiosVenenisticos/marisol/cirujana.mp3 trim 00:14 63 &");
+	system("play -q /usr/local/bin/audiosVenenisticos/sounds/marisol/cirujana.mp3 trim 00:14 63 &");
 }
 
 int main(int argc, char* argv[]){

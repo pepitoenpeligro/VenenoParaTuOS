@@ -358,10 +358,12 @@ impresion:
 
 
 final:
-	@play sounds/install/ayquerisa.mp3
+	@play -q sounds/install/ayquerisa.mp3
 
 #=======================================================================================================================#
 
+
+# @play -q sounds/install/ayquerisa.mp3 trim inicio desplazamiento
 
 ##################
 # @tput bold; -> negrita

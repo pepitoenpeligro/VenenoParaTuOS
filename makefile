@@ -179,10 +179,10 @@ marranona:
 # Instalación standard
 install:
 	@echo Instalando en /usr/local/bin
-	@cp -r ./{rosi,sandra,manolo,camellona,sevillana,rocio,manola} /usr/local/bin
-	@cp -r ./{mopa,boxer,ATS,amiga,marranona,aceite} /usr/local/bin
-	@cp -r ./{ordinaria,carne,perdon,maradona,espania,vos,talco,popeye,cuerpo,conosia,androcur,fisna,obesa} /usr/local/bin
-	@cp -r ./{cuernos,cansa} /usr/local/bin
+	@cp -f ./{rosi,sandra,manolo,camellona,sevillana,rocio,manola} /usr/local/bin
+	@cp -f ./{mopa,boxer,ATS,amiga,marranona,aceite} /usr/local/bin
+	@cp -f ./{ordinaria,carne,perdon,maradona,espania,vos,talco,popeye,cuerpo,conosia,androcur,fisna,obesa} /usr/local/bin
+	@cp -f ./{cuernos,cansa} /usr/local/bin
 
 # Desinstalación standard
 uninstall:
@@ -322,11 +322,20 @@ requisitos:
 	@sudo apt-get install toilet
 	@sudo apt-get install sox
 
-dependencias:
+dependencias: dependencias1 dependencias2 dependencias3
+
+dependencias1:
 	@echo Necesitas tener toilet
 	@echo sudo apt-get install toilet
+
+dependencias2:
 	@echo Para los audios debes tener sox
 	@echo sudo apt-get install sox
+
+dependencias3:
+	@echo Debes instalar el plugin mp3
+	@echo sudo apt-get install libsox-fmt-mp3
+	
 
 banner: 
 	@toilet -f bigmono9 -F gay "Veneno Para Tu OS"

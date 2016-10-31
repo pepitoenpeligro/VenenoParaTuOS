@@ -102,5 +102,6 @@ TODO
 	Versión actual: 1.0.1 - Lunes 31 de Octubre de 2016 a las 14:00
 		1. Fixed: "aceite.cpp"
 		2. Fixex: "manola.cpp"
+		3. Fixed: "boxer.cpp"
 
 

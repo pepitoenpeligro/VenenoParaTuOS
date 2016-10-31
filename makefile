@@ -22,7 +22,7 @@ marisol:  mopa boxer ATS amiga marranona aceite
 
 nova: ordinaria carne perdon maradona espania vos talco popeye cuerpo conosia androcur fisna obesa
 
-propio: cuernos cansa
+propio: cuernos cansa libro
 
 
 #=======================================================================================================================#
@@ -170,6 +170,11 @@ marranona:
 	@echo "\t"Compilando marranona
 	@echo "\t"Fecha: Domigo 30 de Octubre de 2016 - 21:00 "\n"
 
+libro:
+	g++ ./propio/libro.cpp -o libro
+	@echo "\t"Compilando libro
+	@echo "\t"Fecha: Lunes 31 de Octubre de 2016 - 19:54 "\n"
+
 
 
 #=======================================================================================================================#
@@ -182,14 +187,17 @@ install:
 	@cp -f ./{rosi,sandra,manolo,camellona,sevillana,rocio,manola} /usr/local/bin
 	@cp -f ./{mopa,boxer,ATS,amiga,marranona,aceite} /usr/local/bin
 	@cp -f ./{ordinaria,carne,perdon,maradona,espania,vos,talco,popeye,cuerpo,conosia,androcur,fisna,obesa} /usr/local/bin
-	@cp -f ./{cuernos,cansa} /usr/local/bin
+	@cp -f ./{cuernos,cansa,libro} /usr/local/bin
+	@mkdir -p /usr/local/bin/audiosVenenisticos
+	@cp -rfp sounds /usr/local/bin/audiosVenenisticos
 
 # Desinstalación standard
 uninstall:
 	@rm /usr/local/bin/{rosi,sandra,manolo,camellona,sevillana,rocio,manola}
 	@rm /usr/local/bin/{mopa,boxer,ATS,amiga,marranona,aceite}
 	@rm /usr/local/bin/{ordinaria,carne,perdon,maradona,espania,vos,talco,popeye,cuerpo,conosia,androcur,fisna,obesa}
-	@rm /usr/local/bin/{cuernos,cansa}
+	@rm /usr/local/bin/{cuernos,cansa,libro}
+	@rm -rf /usr/local/bin/audiosVenenisticos/
 	@cat veneno.txt
 	@echo "\n La desinstalación ha sido completada \n\n"
 
@@ -226,6 +234,9 @@ install-forced:
 	@cp vos /usr/local/bin
 	@cp cansa /usr/local/bin
 	@cp cuernos /usr/local/bin
+	@cp libro /usr/local/bin
+	@mkdir -p /usr/local/bin/audiosVenenisticos
+	@cp -rfp sounds /usr/local/bin/audiosVenenisticos
 
 
 # Desinstalación forzosa
@@ -260,6 +271,8 @@ uninstall-forced:
 	@rm /usr/local/bin/vos 
 	@rm /usr/local/bin/cansa 
 	@rm /usr/local/bin/cuernos
+	@rm /usr/local/bin/libro
+	@rm -rf /usr/local/bin/audiosVenenisticos/
 	@cat veneno.txt
 	@echo "\n La desinstalación ha sido completada \n\n"
 
@@ -276,7 +289,7 @@ clean: banner transparente
 	@rm ./{rosi,sandra,manolo,camellona,sevillana,rocio,manola}
 	@rm ./{mopa,boxer,ATS,amiga,marranona,aceite}
 	@rm ./{ordinaria,carne,perdon,maradona,espania,vos,talco,popeye,cuerpo,conosia,androcur,fisna,obesa}
-	@rm ./{cuernos,cansa}
+	@rm ./{cuernos,cansa,libro}
 
 
 clean-forced:
@@ -311,6 +324,7 @@ clean-forced:
 	@rm vos 
 	@rm cansa 
 	@rm cuernos 
+	@rm libro
 
 
 

@@ -94,3 +94,13 @@ TODO
 
   [^stackedit]: [LaVeneno](https://es.wikipedia.org/wiki/La_Veneno) 
 
+
+### Historial de versiones
+	
+	Versión inicial: 1.0 - Domingo 30 de Octubre de 2016 a las 22:00
+
+	Versión actual: 1.0.1 - Lunes 31 de Octubre de 2016 a las 14:00
+		1. Fixed: "aceite.cpp"
+		2. Fixex: "manola.cpp"
+
+

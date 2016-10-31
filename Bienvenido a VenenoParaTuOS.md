@@ -105,5 +105,13 @@ TODO
 		3. Fixed: "boxer.cpp"
         4. Fixed: "rocio.cpp"
         5. Fixed: "sevillana.cpp"
+        6. Fixed: "amiga.cpp"
+        7. Fixed: "ATS.cpp"
+        8. Fixed: "fisna.cpp"
+        9. Fixed: "obesa.cpp"
+        10. Fixed: "androcur.cpp"
+        11. Fixed: "conosia.cpp"
+        12. Fixed: "ordinaria.cpp"
+        13. Fixed: "carne.cpp"
 
 

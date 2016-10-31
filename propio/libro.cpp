@@ -23,7 +23,7 @@ void Texto(){
 	cout << "El coño de porcelana, pegao pa atras." << endl;
 }
 void Audio(){
-	system("play -q /usr/local/bin/audiosVenenisticos/propio/lavidaibaenserio.mp3 &");
+	system("play -q /usr/local/bin/audiosVenenisticos/sounds/propio/lavidaibaenserio.mp3 &");
 }
 
 int main(int argc, char * argv[]){

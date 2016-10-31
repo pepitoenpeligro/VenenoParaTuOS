@@ -27,18 +27,23 @@ En OS X:
    
 ---
 
-En Ubuntu:
+En Ubuntu 14.04.3:
 
     $ sudo apt-get install toilet
-    $ make
+    $ sudo apt-get install sox
+    $ sudo apt-get install libsox-fmt-mp3
+    $ sudo make
+    $ (si falla en la instalacion): sudo make install-forced
 
 ---
 
 En Ubuntu Server 16:
 
     $ sudo apt-get install toilet
+    $ sudo apt-get install sox
+    $ sudo apt-get install libsox-fmt-mp3
     $ sudo make
-    $ sudo make install-ubuntuserver
+    $ (si falla en la instalacion): sudo make install-forced
 
 
 Recursos disponibles
@@ -83,6 +88,7 @@ TODO
 > **Lista: **
 
 > - Inclusión de más recursos en la librería.
+> - Inclusión de audios
 > - Inclusión de "minutos" de visionado + url de donde se obtuvo
 > - Implementaro en base de datos
 
@@ -95,9 +101,12 @@ TODO
   [^stackedit]: [LaVeneno](https://es.wikipedia.org/wiki/La_Veneno) 
 
 
+
+
 ### Historial de versiones
 	
 	Versión inicial: 1.0 - Domingo 30 de Octubre de 2016 a las 22:00
+        1. Contiene los recursos de texto más elementales (28)
 
 	Versión actual: 1.0.1 - Lunes 31 de Octubre de 2016 a las 14:00
 		1. Fixed: "aceite.cpp"
@@ -113,5 +122,15 @@ TODO
         11. Fixed: "conosia.cpp"
         12. Fixed: "ordinaria.cpp"
         13. Fixed: "carne.cpp"
+
+    Versión actual: 1.1 - Lunes 31 de Octubre de 2016 a las 17:15
+        1. Confirmación de funcionamiento en: {Ubuntu Server 16.04.1, Ubuntu 14.04.3, macOS Sierra}.
+        2. Modificación de desinstalación.
+        3. Adición de audio principal al final de la instalación.
+
+    Versión futura: 1.1.1 - Miércoles 2 de Noviembre de 2016
+        1. Adición de los audios correspondientes a los 28 recursos actuales.
+        2. Adición de las referencias de cada uno de los textos (de donde proviene).
+        3. Instalación en Windows (esperemos).
 
 

@@ -194,7 +194,7 @@ uninstall:
 	@echo "\n La desinstalación ha sido completada \n\n"
 
 
-# Instalación forzosa
+# Instalación forzosa (ejecutar como sudo make install-forced y funciona en Ubuntu 14)
 install-forced:
 	@echo Instalando de forma forzosa
 	@cp rosi /usr/local/bin

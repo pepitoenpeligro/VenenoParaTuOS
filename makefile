@@ -214,7 +214,7 @@ install:
 	@cp -f ./{ordinaria,carne,perdon,maradona,espania,vos,talco,popeye,cuerpo,conosia,androcur,fisna,obesa,curriculum,caballo,canto,vida} /usr/local/bin
 	@cp -f ./{cuernos,cansa,libro} /usr/local/bin
 	@mkdir -p /usr/local/bin/audiosVenenisticos
-	@cp -rfp sounds /usr/local/bin/audiosVenenisticos/sounds
+	@cp -rfp sounds /usr/local/bin/audiosVenenisticos
 
 # Desinstalación standard
 uninstall:
@@ -265,7 +265,7 @@ install-forced:
 	@cp canto /usr/local/bin
 	@cp vida /usr/local/bin
 	@mkdir -p /usr/local/bin/audiosVenenisticos
-	@cp -rfp sounds /usr/local/bin/audiosVenenisticos/sounds
+	@cp -rfp sounds /usr/local/bin/audiosVenenisticos
 
 
 # Desinstalación forzosa

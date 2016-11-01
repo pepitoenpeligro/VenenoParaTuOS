@@ -78,6 +78,10 @@ Todos los recursos están organizados según temática (travestis, marisol, nova
  26. vos
  27. cansa
  28. cuernos
+ 29. curriculum
+ 30. caballo
+ 31. canto
+ 32. vida
 
 TODO
 -------------------
@@ -123,14 +127,14 @@ TODO
         12. Fixed: "ordinaria.cpp"
         13. Fixed: "carne.cpp"
 
-    Versión actual: 1.1 - Lunes 31 de Octubre de 2016 a las 17:15
+    Versión actual: 1.0.2 - Lunes 31 de Octubre de 2016 a las 17:15
         1. Confirmación de funcionamiento en: {Ubuntu Server 16.04.1, Ubuntu 14.04.3, macOS Sierra}.
         2. Modificación de desinstalación.
         3. Adición de audio principal al final de la instalación.
 
-    Versión futura: 1.1.1 - Miércoles 2 de Noviembre de 2016
-        1. Adición de los audios correspondientes a los 28 recursos actuales.
-        2. Adición de las referencias de cada uno de los textos (de donde proviene).
-        3. Instalación en Windows (esperemos).
+    Versión actual: 1.0.3 - Martes 1 de Noviembre de 2016 a las 14:10
+        1. Adición de los audios correspondientes a los 28 recursos disponibles hasta el momento.
+        2. Adición de los recursos {curriculum, caballo, canto, vida} con sus respectivos audios.
+
 
 

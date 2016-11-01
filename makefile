@@ -20,7 +20,7 @@ travestis: rosi sandra manolo camellona sevillana rocio manola
 
 marisol:  mopa boxer ATS amiga marranona aceite
 
-nova: ordinaria carne perdon maradona espania vos talco popeye cuerpo conosia androcur fisna obesa
+nova: ordinaria carne perdon maradona espania vos talco popeye cuerpo conosia androcur fisna obesa curriculum caballo canto vida
 
 propio: cuernos cansa libro
 
@@ -177,6 +177,31 @@ libro:
 
 
 
+
+
+curriculum:
+	g++ ./nova/curriculum.cpp -o curriculum
+	@echo "\t"Compilando curriculum
+	@echo "\t"Fecha: Lunes 31 de Noviembre de 2016 - 00:23 "\n"
+
+caballo:
+	g++ ./nova/caballo.cpp -o caballo
+	@echo "\t"Compilando caballo
+	@echo "\t"Fecha: Lunes 31 de Noviembre de 2016 - 00:23 "\n"
+
+
+
+canto:
+	g++ ./nova/canto.cpp -o canto
+	@echo "\t"Compilando canto
+	@echo "\t"Fecha: Martes 1 de Noviembre de 2016 - 13:57 "\n"
+
+vida:
+	g++ ./nova/vida.cpp -o vida
+	@echo "\t"Compilando vida
+	@echo "\t"Fecha: Martes 1 de Noviembre de 2016 - 13:57 "\n"
+
+
 #=======================================================================================================================#
 
 
@@ -186,7 +211,7 @@ install:
 	@echo Instalando en /usr/local/bin
 	@cp -f ./{rosi,sandra,manolo,camellona,sevillana,rocio,manola} /usr/local/bin
 	@cp -f ./{mopa,boxer,ATS,amiga,marranona,aceite} /usr/local/bin
-	@cp -f ./{ordinaria,carne,perdon,maradona,espania,vos,talco,popeye,cuerpo,conosia,androcur,fisna,obesa} /usr/local/bin
+	@cp -f ./{ordinaria,carne,perdon,maradona,espania,vos,talco,popeye,cuerpo,conosia,androcur,fisna,obesa,curriculum,caballo,canto,vida} /usr/local/bin
 	@cp -f ./{cuernos,cansa,libro} /usr/local/bin
 	@mkdir -p /usr/local/bin/audiosVenenisticos
 	@cp -rfp sounds /usr/local/bin/audiosVenenisticos/sounds
@@ -195,7 +220,7 @@ install:
 uninstall:
 	@rm /usr/local/bin/{rosi,sandra,manolo,camellona,sevillana,rocio,manola}
 	@rm /usr/local/bin/{mopa,boxer,ATS,amiga,marranona,aceite}
-	@rm /usr/local/bin/{ordinaria,carne,perdon,maradona,espania,vos,talco,popeye,cuerpo,conosia,androcur,fisna,obesa}
+	@rm /usr/local/bin/{ordinaria,carne,perdon,maradona,espania,vos,talco,popeye,cuerpo,conosia,androcur,fisna,obesa,curriculum,caballo,canto,vida}
 	@rm /usr/local/bin/{cuernos,cansa,libro}
 	@rm -rf /usr/local/bin/audiosVenenisticos/
 	@cat veneno.txt
@@ -235,6 +260,10 @@ install-forced:
 	@cp cansa /usr/local/bin
 	@cp cuernos /usr/local/bin
 	@cp libro /usr/local/bin
+	@cp curriculum /usr/local/bin
+	@cp caballo /usr/local/bin
+	@cp canto /usr/local/bin
+	@cp vida /usr/local/bin
 	@mkdir -p /usr/local/bin/audiosVenenisticos
 	@cp -rfp sounds /usr/local/bin/audiosVenenisticos/sounds
 
@@ -272,6 +301,10 @@ uninstall-forced:
 	@rm /usr/local/bin/cansa 
 	@rm /usr/local/bin/cuernos
 	@rm /usr/local/bin/libro
+	@rm /usr/local/bin/curriculum
+	@rm /usr/local/bin/caballo
+	@rm /usr/local/bin/canto
+	@rm /usr/local/bin/vida
 	@rm -rf /usr/local/bin/audiosVenenisticos/
 	@cat veneno.txt
 	@echo "\n La desinstalación ha sido completada \n\n"
@@ -288,7 +321,7 @@ clean: banner transparente
 	@tput sgr0;
 	@rm ./{rosi,sandra,manolo,camellona,sevillana,rocio,manola}
 	@rm ./{mopa,boxer,ATS,amiga,marranona,aceite}
-	@rm ./{ordinaria,carne,perdon,maradona,espania,vos,talco,popeye,cuerpo,conosia,androcur,fisna,obesa}
+	@rm ./{ordinaria,carne,perdon,maradona,espania,vos,talco,popeye,cuerpo,conosia,androcur,fisna,obesa,curriculum,caballo,canto,vida}
 	@rm ./{cuernos,cansa,libro}
 
 
@@ -325,6 +358,11 @@ clean-forced:
 	@rm cansa 
 	@rm cuernos 
 	@rm libro
+	@rm curriculum
+	@rm caballo
+	@rm canto
+	@rm vida
+
 
 
 
@@ -361,9 +399,9 @@ impresion:
 	@tput smul;
 	@echo Compilando todas las frases disponibles de la Veneno
 	@tput rmul;
-	@echo Fecha: Lunes 31 de Octubre de 2016 - 17:00
-	@echo Version 1.0.2
-	@echo Disponibles: 28 "\n"
+	@echo Fecha: Martes 1 de Noviembre de 2016 - 14:00
+	@echo Version 1.0.3
+	@echo Disponibles: 32 "\n"
 	@echo Hecho con mucho cariño por:
 	@echo "\t"José Antonio Córdoba Gómez "\t\t\t" pepitoenpeligro@gmail.com
 	@echo "\t"Marta Arenas Martínez "\t\t\t\t" martilla311@gmail.com

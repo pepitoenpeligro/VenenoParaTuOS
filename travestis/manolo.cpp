@@ -18,7 +18,7 @@ void Texto(){
 }
 
 void Audio(){
-	system("play -q /usr/local/bin/audiosVenenisticos/sounds/marisol/cirujana.mp3 trim 003:02 00:24 &");
+	system("play -q /usr/local/bin/audiosVenenisticos/sounds/nova/venenoNova1.mp3 trim 03:02 00:24 &");
 }
 
 int main(int argc, char* argv[]){

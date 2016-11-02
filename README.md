@@ -112,7 +112,7 @@ TODO
 	Versión inicial: 1.0 - Domingo 30 de Octubre de 2016 a las 22:00
         1. Contiene los recursos de texto más elementales (28)
 
-	Versión actual: 1.0.1 - Lunes 31 de Octubre de 2016 a las 14:00
+	Versión previa: 1.0.1 - Lunes 31 de Octubre de 2016 a las 14:00
 		1. Fixed: "aceite.cpp"
 		2. Fixex: "manola.cpp"
 		3. Fixed: "boxer.cpp"
@@ -127,14 +127,18 @@ TODO
         12. Fixed: "ordinaria.cpp"
         13. Fixed: "carne.cpp"
 
-    Versión actual: 1.0.2 - Lunes 31 de Octubre de 2016 a las 17:15
+    Versión previa: 1.0.2 - Lunes 31 de Octubre de 2016 a las 17:15
         1. Confirmación de funcionamiento en: {Ubuntu Server 16.04.1, Ubuntu 14.04.3, macOS Sierra}.
         2. Modificación de desinstalación.
         3. Adición de audio principal al final de la instalación.
 
-    Versión actual: 1.0.3 - Martes 1 de Noviembre de 2016 a las 14:10
+    Versión previa: 1.0.3 - Martes 1 de Noviembre de 2016 a las 14:10
         1. Adición de los audios correspondientes a los 28 recursos disponibles hasta el momento.
         2. Adición de los recursos {curriculum, caballo, canto, vida} con sus respectivos audios.
+
+    Versión actual: 1.0.4 - Miércoles 2 de Noviembre de 2016 a las 06:40
+        1. Fixed: "manolo.cpp"
+        
 
 
 

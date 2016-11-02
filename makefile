@@ -20,15 +20,7 @@ travestis: rosi sandra manolo camellona sevillana rocio manola
 
 marisol:  mopa boxer ATS amiga marranona aceite
 
-nova: ordinaria carne perdon maradona espania vos  \
-		talco popeye cuerpo conosia androcur fisna \
-		obesa curriculum caballo canto vida \
-		furgolista tarantula uy geronimo aprende polaca labrar \
-		ashin bellezas reto cuerpoCompleto colectivo pollaNova \
-		insultar callate dosEnBragas incurta suda copia personaje \
-		denegao si quirofanoCompleto quirofano muerta fama quiere \
-		puton higuera esta conozco criticar sombra envidiosa\
-		envidiaSana ursula lepego camaleonica dormir anda canalla
+nova: ordinaria carne perdon maradona espania vos talco popeye cuerpo conosia androcur fisna obesa curriculum caballo canto vida furgolista tarantula uy geronimo aprende polaca labrar ashin bellezas reto cuerpoCompleto colectivo pollaNova insultar callate dosEnBragas incurta suda copia personaje denegao si quirofanoCompleto quirofano muerta fama quiere puton higuera esta conozco criticar sombra envidiosa envidiaSana ursula lepego camaleonica dormir anda canalla
 
 propio: cuernos cansa libro
 
@@ -411,6 +403,10 @@ canalla:
 	@echo "\t"Compilando canalla
 	@echo "\t"Fecha: Miércoles 2 de Noviembre de 2016 - 06:40 "\n"
 
+geronimo:
+	g++ ./nova/geronimo.cpp -o geronimo
+	@echo "\t"Compilando geronimo
+	@echo "\t"Fecha: Miércoles 2 de Noviembre de 2016 - 06:40 "\n"
 
 
 

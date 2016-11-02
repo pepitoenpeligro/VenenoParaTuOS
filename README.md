@@ -138,6 +138,7 @@ TODO
 
     Versión actual: 1.0.4 - Miércoles 2 de Noviembre de 2016 a las 06:40
         1. Fixed: "manolo.cpp"
+        2. Add: "furgolista.cpp"
         
 
 

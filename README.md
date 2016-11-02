@@ -4,7 +4,7 @@ Bienvenido a VenenoParaTuOS
 
 **VenenoParaTuOS** es una colección de frases de la veneno incluidas en tu sistema operativo. Podrás lanzarlos en tu terminal cuando quieras.
 
-Actualmente hay 28 recursos disponibles.
+Actualmente hay 75 recursos disponibles.
 
 
 ----------
@@ -24,6 +24,7 @@ En OS X:
 
     $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
     $ brew install toilet
+    $ sudo make
    
 ---
 
@@ -82,6 +83,60 @@ Todos los recursos están organizados según temática (travestis, marisol, nova
  30. caballo
  31. canto
  32. vida
+ 33. furgolista
+ 34. tarantula
+ 35. uy
+ 36. geronimo
+ 37. aprende
+ 38. polaca
+ 39. labrar
+ 40. ashin
+ 41. bellezas
+ 42. reto
+ 43. cuerpoCompleto
+ 44. colectivo
+ 45. pollaNova
+ 46. insultar
+ 47. callate
+ 48. dosEnBragas
+ 49. incurta
+ 51. suda
+ 52. copia
+ 53. personaje
+ 54. denegao
+ 55. si
+ 56. quifanoCompleto
+ 57. quirofano
+ 58. muerta
+ 59. fama
+ 61. quiere
+ 62. puton
+ 63. higuera
+ 64. esta
+ 65. conozco
+ 66. criticar
+ 67. sombra
+ 68. envidiosa
+ 69. envidiaSana
+ 70. ursula
+ 71. lepego
+ 72. camaleonica
+ 73. dormir
+ 74. anda
+ 75. canalla
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 TODO
 -------------------
@@ -140,7 +195,65 @@ TODO
         1. Fixed: "manolo.cpp"
         2. Add: "furgolista.cpp"
         3. Add: "tarantula.cpp"
-        
+        4. Add: "uy.cpp"
+        5. Add: "aprende.cpp"
+        6. Add: "geronimo.cpp"
+        7. Add: "labrar.cpp"
+        8. Add: "ashin.cpp"
+        9. Add: "bellezas.cpp"
+        10. Add: "reto.cpp"
+        11. Add: "cuerpoCompleto.cpp"
+        12. Add: "insultar.cpp"
+        13. Add: "callate.cpp"
+        14. Add: "dosEnBragas.cpp"
+        15. Add: "incurta.cpp"
+        16. Add: "suda.cpp"
+        17. Add: "denegao.cpp"
+        18. Add: "si.cpp"
+        19. Add: "quirofanoCompleto.cpp"
+        20. Add: "quirofano.cpp"
+        21. Add: "muerta.cpp"
+        22. Add: "puton.cpp"
+        23. Add: "higuera.cpp"
+        24. Add: "esta.cpp"
+        25. Add: "conozco.cpp"
+        26. Add: "criticar.cpp"
+        27. Add: "colectivo.cpp"
+        28. Add: "polaca.cpp"
+        29. Add: "pollaNova.cpp"
+        30. Add: "personaje.cpp"
+        31. Add: "quiere.cpp"
+        32. Add: "fama.cpp"
+        33. Add: "copia.cpp"
 
 
 
+
+### Audios (Solo Developers) 
+    
+    nova:
+        1. androcurs.mp3 (sin procesar)
+        2. leopardo.mp3 (sin procesar)
+        3. venenoNova1.mp3 (PROCESADO COMPLETO)
+        4. venenoNova2.mp3 (PROCESADO COMPLETO)
+
+    propio:
+        1. lavidaibaenserio.mp3 (PROCESADO COMPLETO)
+        2. cuernos.mp3 (PROCESADO COMPLETO)
+        3. cansa.mp3 (PROCESADO COMPLETO)
+
+    marisol:
+        1. cirujana.mp3 (sin procesar)
+
+    install:
+        1.ayquerisa.mp3 (PROCESADO COMPLETO)
+
+   
+
+
+
+
+ Nova -> 58
+ Propio -> 3
+ Marisol -> 6
+ Travestis -> 7

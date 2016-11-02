@@ -8,11 +8,17 @@ void Texto(){
 	cout << "Cuerpo y belleza como La Veneno no la ha habido en España" << endl;
 	cout << "ashín de claro" << endl;
 	cout << "y lo sabéis todos" << endl;
+	cout << "me han comparado con las bellezas más grandes de este pais" << endl;
+	cout << "Raquel Welch \t Brigitte Bardot \t Ursula Andress." << endl;
+	cout << "Cuando quiera, yo le reto a ella" << endl;
+	cout << "Aquí en el plató que  nos desmaquillen y nos rapen la cabeza" << endl;
+	cout << "Cuando quiera, a ver quien parece más mujer" << endl;
+	cout << "Ella o yo" << endl;
+	cout << "O si (no) quiere, tanto que dice que es cantante, cantamos, primero que cante ella y luego canto yo" << endl;
 }
 
 void Audio(){
-	// Establecer audio
-	system("play -q /usr/local/bin/audiosVenenisticos/sounds/nova/venenoNova1.mp3 trim 03:58.7 00:8.5 &");
+	system("play -q /usr/local/bin/audiosVenenisticos/sounds/nova/venenoNova2.mp3 trim 03:58.7 00:32.5 &");
 }
 
 int main(int argc, char* argv[]){

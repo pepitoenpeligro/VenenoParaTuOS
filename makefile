@@ -20,7 +20,15 @@ travestis: rosi sandra manolo camellona sevillana rocio manola
 
 marisol:  mopa boxer ATS amiga marranona aceite
 
-nova: ordinaria carne perdon maradona espania vos talco popeye cuerpo conosia androcur fisna obesa curriculum caballo canto vida
+nova: ordinaria carne perdon maradona espania vos  \
+		talco popeye cuerpo conosia androcur fisna \
+		obesa curriculum caballo canto vida \
+		furgolista tarantula uy geronimo aprende polaca labrar \
+		ashin bellezas reto cuerpoCompleto colectivo pollaNova \
+		insultar callate dosEnBragas incurta suda copia personaje \
+		denegao si quirofanoCompleto quirofano muerta fama quiere \
+		puton higuera esta conozco criticar sombra envidiosa\
+		envidiaSana ursula lepego camaleonica dormir anda canalla
 
 propio: cuernos cansa libro
 
@@ -202,6 +210,213 @@ vida:
 	@echo "\t"Fecha: Martes 1 de Noviembre de 2016 - 13:57 "\n"
 
 
+furgolista:
+	g++ ./nova/furgolista.cpp -o furgolista
+	@echo "\t"Compilando furgolista
+	@echo "\t"Fecha: Miércoles 2 de Noviembre de 2016 - 06:40 "\n"
+
+tarantula:
+	g++ ./nova/tarantula.cpp -o tarantula
+	@echo "\t"Compilando tarantula
+	@echo "\t"Fecha: Miércoles 2 de Noviembre de 2016 - 06:40 "\n"
+
+uy:
+	g++ ./nova/uy.cpp -o uy
+	@echo "\t"Compilando uy
+	@echo "\t"Fecha: Miércoles 2 de Noviembre de 2016 - 06:40 "\n"
+
+aprende:
+	g++ ./nova/aprende.cpp -o aprende
+	@echo "\t"Compilando aprende
+	@echo "\t"Fecha: Miércoles 2 de Noviembre de 2016 - 06:40 "\n"
+
+polaca:
+	g++ ./nova/polaca.cpp -o polaca
+	@echo "\t"Compilando polaca
+	@echo "\t"Fecha: Miércoles 2 de Noviembre de 2016 - 06:40 "\n"
+
+labrar:
+	g++ ./nova/labrar.cpp -o labrar
+	@echo "\t"Compilando labrar
+	@echo "\t"Fecha: Miércoles 2 de Noviembre de 2016 - 06:40 "\n"
+
+ashin:
+	g++ ./nova/ashin.cpp -o ashin
+	@echo "\t"Compilando ashin
+	@echo "\t"Fecha: Miércoles 2 de Noviembre de 2016 - 06:40 "\n"
+
+bellezas:
+	g++ ./nova/bellezas.cpp -o bellezas
+	@echo "\t"Compilando bellezas
+	@echo "\t"Fecha: Miércoles 2 de Noviembre de 2016 - 06:40 "\n"
+
+reto:
+	g++ ./nova/reto.cpp -o reto
+	@echo "\t"Compilando reto
+	@echo "\t"Fecha: Miércoles 2 de Noviembre de 2016 - 06:40 "\n"
+
+cuerpoCompleto:
+	g++ ./nova/cuerpoCompleto.cpp -o cuerpoCompleto
+	@echo "\t"Compilando cuerpoCompleto
+	@echo "\t"Fecha: Miércoles 2 de Noviembre de 2016 - 06:40 "\n"
+
+colectivo:
+	g++ ./nova/colectivo.cpp -o colectivo
+	@echo "\t"Compilando colectivo
+	@echo "\t"Fecha: Miércoles 2 de Noviembre de 2016 - 06:40 "\n"
+
+pollaNova:
+	g++ ./nova/pollaNova.cpp -o pollaNova
+	@echo "\t"Compilando pollaNova
+	@echo "\t"Fecha: Miércoles 2 de Noviembre de 2016 - 06:40 "\n"
+
+insultar:
+	g++ ./nova/insultar.cpp -o insultar
+	@echo "\t"Compilando insultar
+	@echo "\t"Fecha: Miércoles 2 de Noviembre de 2016 - 06:40 "\n"
+
+callate:
+	g++ ./nova/callate.cpp -o callate
+	@echo "\t"Compilando callate
+	@echo "\t"Fecha: Miércoles 2 de Noviembre de 2016 - 06:40 "\n"
+
+dosEnBragas:
+	g++ ./nova/dosEnBragas.cpp -o dosEnBragas
+	@echo "\t"Compilando dosEnBragas
+	@echo "\t"Fecha: Miércoles 2 de Noviembre de 2016 - 06:40 "\n"
+
+incurta:
+	g++ ./nova/incurta.cpp -o incurta
+	@echo "\t"Compilando incurta
+	@echo "\t"Fecha: Miércoles 2 de Noviembre de 2016 - 06:40 "\n"
+
+suda:
+	g++ ./nova/suda.cpp -o suda
+	@echo "\t"Compilando suda
+	@echo "\t"Fecha: Miércoles 2 de Noviembre de 2016 - 06:40 "\n"
+
+copia:
+	g++ ./nova/copia.cpp -o copia
+	@echo "\t"Compilando copia
+	@echo "\t"Fecha: Miércoles 2 de Noviembre de 2016 - 06:40 "\n"
+
+personaje:
+	g++ ./nova/personaje.cpp -o personaje
+	@echo "\t"Compilando personaje
+	@echo "\t"Fecha: Miércoles 2 de Noviembre de 2016 - 06:40 "\n"
+
+denegao:
+	g++ ./nova/denegao.cpp -o denegao
+	@echo "\t"Compilando denegao
+	@echo "\t"Fecha: Miércoles 2 de Noviembre de 2016 - 06:40 "\n"
+
+si:
+	g++ ./nova/si.cpp -o si
+	@echo "\t"Compilando si
+	@echo "\t"Fecha: Miércoles 2 de Noviembre de 2016 - 06:40 "\n"
+
+quirofanoCompleto:
+	g++ ./nova/quirofanoCompleto.cpp -o quirofanoCompleto
+	@echo "\t"Compilando quirofanoCompleto
+	@echo "\t"Fecha: Miércoles 2 de Noviembre de 2016 - 06:40 "\n"
+
+quirofano:
+	g++ ./nova/quirofano.cpp -o quirofano
+	@echo "\t"Compilando quirofano
+	@echo "\t"Fecha: Miércoles 2 de Noviembre de 2016 - 06:40 "\n"
+
+muerta:
+	g++ ./nova/muerta.cpp -o muerta
+	@echo "\t"Compilando muerta
+	@echo "\t"Fecha: Miércoles 2 de Noviembre de 2016 - 06:40 "\n"
+
+fama:
+	g++ ./nova/fama.cpp -o fama
+	@echo "\t"Compilando fama
+	@echo "\t"Fecha: Miércoles 2 de Noviembre de 2016 - 06:40 "\n"
+
+quiere:
+	g++ ./nova/quiere.cpp -o quiere
+	@echo "\t"Compilando quiere
+	@echo "\t"Fecha: Miércoles 2 de Noviembre de 2016 - 06:40 "\n"
+
+puton:
+	g++ ./nova/puton.cpp -o puton
+	@echo "\t"Compilando puton
+	@echo "\t"Fecha: Miércoles 2 de Noviembre de 2016 - 06:40 "\n"
+
+
+higuera:
+	g++ ./nova/higuera.cpp -o higuera
+	@echo "\t"Compilando higuera
+	@echo "\t"Fecha: Miércoles 2 de Noviembre de 2016 - 06:40 "\n"
+
+esta:
+	g++ ./nova/esta.cpp -o esta
+	@echo "\t"Compilando esta
+	@echo "\t"Fecha: Miércoles 2 de Noviembre de 2016 - 06:40 "\n"
+
+conozco:
+	g++ ./nova/conozco.cpp -o conozco
+	@echo "\t"Compilando conozco
+	@echo "\t"Fecha: Miércoles 2 de Noviembre de 2016 - 06:40 "\n"
+
+criticar:
+	g++ ./nova/criticar.cpp -o criticar
+	@echo "\t"Compilando criticar
+	@echo "\t"Fecha: Miércoles 2 de Noviembre de 2016 - 06:40 "\n"
+
+sombra:
+	g++ ./nova/sombra.cpp -o sombra
+	@echo "\t"Compilando sombra
+	@echo "\t"Fecha: Miércoles 2 de Noviembre de 2016 - 06:40 "\n"
+
+envidiosa:
+	g++ ./nova/envidiosa.cpp -o envidiosa
+	@echo "\t"Compilando envidiosa
+	@echo "\t"Fecha: Miércoles 2 de Noviembre de 2016 - 06:40 "\n"
+
+envidiaSana:
+	g++ ./nova/envidiaSana.cpp -o envidiaSana
+	@echo "\t"Compilando envidiaSana
+	@echo "\t"Fecha: Miércoles 2 de Noviembre de 2016 - 06:40 "\n"
+
+ursula:
+	g++ ./nova/ursula.cpp -o ursula
+	@echo "\t"Compilando ursula
+	@echo "\t"Fecha: Miércoles 2 de Noviembre de 2016 - 06:40 "\n"
+
+lepego:
+	g++ ./nova/lepego.cpp -o lepego
+	@echo "\t"Compilando lepego
+	@echo "\t"Fecha: Miércoles 2 de Noviembre de 2016 - 06:40 "\n"
+
+camaleonica:
+	g++ ./nova/camaleonica.cpp -o camaleonica
+	@echo "\t"Compilando camaleonica
+	@echo "\t"Fecha: Miércoles 2 de Noviembre de 2016 - 06:40 "\n"
+
+dormir:
+	g++ ./nova/dormir.cpp -o dormir
+	@echo "\t"Compilando dormir
+	@echo "\t"Fecha: Miércoles 2 de Noviembre de 2016 - 06:40 "\n"
+
+anda:
+	g++ ./nova/anda.cpp -o anda
+	@echo "\t"Compilando anda
+	@echo "\t"Fecha: Miércoles 2 de Noviembre de 2016 - 06:40 "\n"
+
+canalla:
+	g++ ./nova/canalla.cpp -o canalla
+	@echo "\t"Compilando canalla
+	@echo "\t"Fecha: Miércoles 2 de Noviembre de 2016 - 06:40 "\n"
+
+
+
+
+
+
+
 #=======================================================================================================================#
 
 
@@ -211,7 +426,7 @@ install:
 	@echo Instalando en /usr/local/bin
 	@cp -f ./{rosi,sandra,manolo,camellona,sevillana,rocio,manola} /usr/local/bin
 	@cp -f ./{mopa,boxer,ATS,amiga,marranona,aceite} /usr/local/bin
-	@cp -f ./{ordinaria,carne,perdon,maradona,espania,vos,talco,popeye,cuerpo,conosia,androcur,fisna,obesa,curriculum,caballo,canto,vida} /usr/local/bin
+	@cp -f ./{ordinaria,carne,perdon,maradona,espania,vos,talco,popeye,cuerpo,conosia,androcur,fisna,obesa,curriculum,caballo,canto,vida,furgolista,tarantula,uy,geronimo,aprende,polaca,labrar,ashin,bellezas,reto,cuerpoCompleto,colectivo,pollaNova,insultar,callate,dosEnBragas,incurta,suda,copia,personaje,denegao,si,quirofanoCompleto,quirofano,muerta,fama,quiere,puton,higuera,esta,conozco,criticar,sombra,envidiosa,envidiaSana,ursula,lepego,camaleonica,dormir,anda,canalla} /usr/local/bin
 	@cp -f ./{cuernos,cansa,libro} /usr/local/bin
 	@mkdir -p /usr/local/bin/audiosVenenisticos
 	@cp -rfp sounds /usr/local/bin/audiosVenenisticos
@@ -220,7 +435,7 @@ install:
 uninstall:
 	@rm /usr/local/bin/{rosi,sandra,manolo,camellona,sevillana,rocio,manola}
 	@rm /usr/local/bin/{mopa,boxer,ATS,amiga,marranona,aceite}
-	@rm /usr/local/bin/{ordinaria,carne,perdon,maradona,espania,vos,talco,popeye,cuerpo,conosia,androcur,fisna,obesa,curriculum,caballo,canto,vida}
+	@rm /usr/local/bin/{ordinaria,carne,perdon,maradona,espania,vos,talco,popeye,cuerpo,conosia,androcur,fisna,obesa,curriculum,caballo,canto,vida,furgolista,tarantula,uy,geronimo,aprende,polaca,labrar,ashin,bellezas,reto,cuerpoCompleto,colectivo,pollaNova,insultar,callate,dosEnBragas,incurta,suda,copia,personaje,denegao,si,quirofanoCompleto,quirofano,muerta,fama,quiere,puton,higuera,esta,conozco,criticar,sombra,envidiosa,envidiaSana,ursula,lepego,camaleonica,dormir,anda,canalla}
 	@rm /usr/local/bin/{cuernos,cansa,libro}
 	@rm -rf /usr/local/bin/audiosVenenisticos/
 	@cat veneno.txt
@@ -264,6 +479,47 @@ install-forced:
 	@cp caballo /usr/local/bin
 	@cp canto /usr/local/bin
 	@cp vida /usr/local/bin
+	@cp furgolista /usr/local/bin
+	@cp tarantula /usr/local/bin
+	@cp uy /usr/local/bin
+	@cp geronimo /usr/local/bin
+	@cp aprende /usr/local/bin
+	@cp polaca /usr/local/bin
+	@cp labrar /usr/local/bin
+	@cp ashin /usr/local/bin
+	@cp bellezas /usr/local/bin
+	@cp reto /usr/local/bin
+	@cp cuerpoCompleto /usr/local/bin
+	@cp colectivo /usr/local/bin
+	@cp pollaNova /usr/local/bin
+	@cp insultar /usr/local/bin
+	@cp callate /usr/local/bin
+	@cp dosEnBragas /usr/local/bin
+	@cp incurta /usr/local/bin
+	@cp suda /usr/local/bin
+	@cp copia /usr/local/bin
+	@cp personaje /usr/local/bin
+	@cp denegao /usr/local/bin
+	@cp si /usr/local/bin
+	@cp quirofanoCompleto /usr/local/bin
+	@cp quirofano /usr/local/bin
+	@cp muerta /usr/local/bin
+	@cp fama /usr/local/bin
+	@cp quiere /usr/local/bin
+	@cp puton /usr/local/bin
+	@cp higuera /usr/local/bin
+	@cp esta /usr/local/bin
+	@cp conozco /usr/local/bin
+	@cp criticar /usr/local/bin
+	@cp sombra /usr/local/bin
+	@cp envidiosa /usr/local/bin
+	@cp envidiaSana /usr/local/bin
+	@cp ursula /usr/local/bin
+	@cp lepego /usr/local/bin
+	@cp camaleonica /usr/local/bin
+	@cp dormir /usr/local/bin
+	@cp anda /usr/local/bin
+	@cp canalla /usr/local/bin
 	@mkdir -p /usr/local/bin/audiosVenenisticos
 	@cp -rfp sounds /usr/local/bin/audiosVenenisticos
 
@@ -305,6 +561,49 @@ uninstall-forced:
 	@rm /usr/local/bin/caballo
 	@rm /usr/local/bin/canto
 	@rm /usr/local/bin/vida
+	@rm /usr/local/bin/furgolista
+	@rm /usr/local/bin/tarantula
+	@rm /usr/local/bin/uy 
+	@rm /usr/local/bin/geronimo 
+	@rm /usr/local/bin/aprende 
+	@rm /usr/local/bin/polaca 
+	@rm /usr/local/bin/labrar 
+	@rm /usr/local/bin/ashin 
+	@rm /usr/local/bin/bellezas 
+	@rm /usr/local/bin/reto 
+	@rm /usr/local/bin/cuerpoCompleto 
+	@rm /usr/local/bin/colectivo 
+	@rm /usr/local/bin/pollaNova 
+	@rm /usr/local/bin/insultar 
+	@rm /usr/local/bin/callate 
+	@rm /usr/local/bin/dosEnBragas 
+	@rm /usr/local/bin/incurta 
+	@rm /usr/local/bin/suda 
+	@rm /usr/local/bin/copia 
+	@rm /usr/local/bin/personaje 
+	@rm /usr/local/bin/denegao 
+	@rm /usr/local/bin/si 
+	@rm /usr/local/bin/quirofanoCompleto 
+	@rm /usr/local/bin/quirofano 
+	@rm /usr/local/bin/muerta 
+	@rm /usr/local/bin/fama 
+	@rm /usr/local/bin/quiere 
+	@rm /usr/local/bin/puton 
+	@rm /usr/local/bin/higuera 
+	@rm /usr/local/bin/esta 
+	@rm /usr/local/bin/conozco 
+	@rm /usr/local/bin/criticar 
+	@rm /usr/local/bin/sombra 
+	@rm /usr/local/bin/envidiosa 
+	@rm /usr/local/bin/envidiaSana 
+	@rm /usr/local/bin/ursula 
+	@rm /usr/local/bin/lepego 
+	@rm /usr/local/bin/camaleonica 
+	@rm /usr/local/bin/dormir 
+	@rm /usr/local/bin/anda 
+	@rm /usr/local/bin/canalla 
+
+
 	@rm -rf /usr/local/bin/audiosVenenisticos/
 	@cat veneno.txt
 	@echo "\n La desinstalación ha sido completada \n\n"
@@ -321,7 +620,7 @@ clean: banner transparente
 	@tput sgr0;
 	@rm ./{rosi,sandra,manolo,camellona,sevillana,rocio,manola}
 	@rm ./{mopa,boxer,ATS,amiga,marranona,aceite}
-	@rm ./{ordinaria,carne,perdon,maradona,espania,vos,talco,popeye,cuerpo,conosia,androcur,fisna,obesa,curriculum,caballo,canto,vida}
+	@rm ./{ordinaria,carne,perdon,maradona,espania,vos,talco,popeye,cuerpo,conosia,androcur,fisna,obesa,curriculum,caballo,canto,vida,furgolista,tarantula,uy,geronimo,aprende,polaca,labrar,ashin,bellezas,reto,cuerpoCompleto,colectivo,pollaNova,insultar,callate,dosEnBragas,incurta,suda,copia,personaje,denegao,si,quirofanoCompleto,quirofano,muerta,fama,quiere,puton,higuera,esta,conozco,criticar,sombra,envidiosa,envidiaSana,ursula,lepego,camaleonica,dormir,anda,canalla}
 	@rm ./{cuernos,cansa,libro}
 
 
@@ -362,6 +661,47 @@ clean-forced:
 	@rm caballo
 	@rm canto
 	@rm vida
+	@rm furgolista
+	@rm tarantula
+	@rm uy 
+	@rm geronimo 
+	@rm aprende 
+	@rm polaca 
+	@rm labrar 
+	@rm ashin 
+	@rm bellezas 
+	@rm reto 
+	@rm cuerpoCompleto 
+	@rm colectivo 
+	@rm pollaNova 
+	@rm insultar 
+	@rm callate 
+	@rm dosEnBragas 
+	@rm incurta 
+	@rm suda 
+	@rm copia 
+	@rm personaje 
+	@rm denegao 
+	@rm si 
+	@rm quirofanoCompleto 
+	@rm quirofano 
+	@rm muerta 
+	@rm fama 
+	@rm quiere 
+	@rm puton 
+	@rm higuera 
+	@rm esta 
+	@rm conozco 
+	@rm criticar 
+	@rm sombra 
+	@rm envidiosa 
+	@rm envidiaSana 
+	@rm ursula 
+	@rm lepego 
+	@rm camaleonica 
+	@rm dormir 
+	@rm anda 
+	@rm canalla 
 
 
 
@@ -401,7 +741,7 @@ impresion:
 	@tput rmul;
 	@echo Fecha: Martes 1 de Noviembre de 2016 - 14:00
 	@echo Version 1.0.3
-	@echo Disponibles: 32 "\n"
+	@echo Disponibles: 75 "\n"
 	@echo Hecho con mucho cariño por:
 	@echo "\t"José Antonio Córdoba Gómez "\t\t\t" pepitoenpeligro@gmail.com
 	@echo "\t"Marta Arenas Martínez "\t\t\t\t" martilla311@gmail.com

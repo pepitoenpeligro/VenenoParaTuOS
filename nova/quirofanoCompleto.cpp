@@ -4,15 +4,17 @@
 using namespace std;
 
 void Texto(){
-	cout << "Y lo digo y lo diré" << endl;
-	cout << "Cuerpo y belleza como La Veneno no la ha habido en España" << endl;
-	cout << "ashín de claro" << endl;
-	cout << "y lo sabéis todos" << endl;
+	cout << "Yo tenía que entrar en quirófano, mañana, EHH" << endl;
+	cout << "Y por favor, me dijeron, que venía" << endl;
+	cout << "Hoy" << endl;
+	cout << "Porque te quería ver en persona" << endl;
+	cout << "Y cuando te he visto" << endl;
+	cout << "Me he quedao muerta" << endl;
 }
 
 void Audio(){
-	// Establecer audio
-	system("play -q /usr/local/bin/audiosVenenisticos/sounds/nova/venenoNova1.mp3 trim 03:58.7 00:8.5 &");
+	// Modificar tiempo
+	system("play -q /usr/local/bin/audiosVenenisticos/sounds/nova/venenoNova1.mp3 trim 08:14.3 00:9 &");
 }
 
 int main(int argc, char* argv[]){

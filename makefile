@@ -6,7 +6,7 @@
 #Ejecutar con sudo mejor
 
 # Objetivos importantes
-all: dependencias banner impresion rojo travestis verde marisol magenta nova negro propio restablecer install final
+all: dependencias banner impresion rojo travestis verde marisol magenta nova negro propio leopardo restablecer install final
 
 #=======================================================================================================================#
 
@@ -20,18 +20,11 @@ travestis: rosi sandra manolo camellona sevillana rocio manola
 
 marisol:  mopa boxer ATS amiga marranona aceite
 
-nova: ordinaria carne perdon maradona espania vos  \
-		talco popeye cuerpo conosia androcur fisna \
-		obesa curriculum caballo canto vida \
-		furgolista tarantula uy geronimo aprende polaca labrar \
-		ashin bellezas reto cuerpoCompleto colectivo pollaNova \
-		insultar callate dosEnBragas incurta suda copia personaje \
-		denegao si quirofanoCompleto quirofano muerta fama quiere \
-		puton higuera esta conozco criticar sombra envidiosa\
-		envidiaSana ursula lepego camaleonica dormir anda canalla
+nova: ordinaria carne perdon maradona espania vos talco popeye cuerpo conosia androcur fisna obesa curriculum caballo canto vida furgolista tarantula uy geronimo aprende polaca labrar ashin bellezas reto cuerpoCompleto colectivo pollaNova insultar callate dosEnBragas incurta suda copia personaje denegao si quirofanoCompleto quirofano muerta fama quiere puton higuera esta conozco criticar sombra envidiosa envidiaSana ursula lepego camaleonica dormir anda canalla
 
 propio: cuernos cansa libro
 
+leopardo: adelante fea alamierda toro andaguapa tetas pollanova ojete mundo conio ambipur tarrastro deto besos
 
 #=======================================================================================================================#
 
@@ -411,10 +404,81 @@ canalla:
 	@echo "\t"Compilando canalla
 	@echo "\t"Fecha: Miércoles 2 de Noviembre de 2016 - 06:40 "\n"
 
+geronimo:
+	g++ ./nova/geronimo.cpp -o geronimo
+	@echo "\t"Compilando geronimo
+	@echo "\t"Fecha: Miércoles 2 de Noviembre de 2016 - 06:40 "\n"
 
 
+adelante:
+	g++ ./leopardo/adelante.cpp -o adelante
+	@echo "\t"Compilando adelante
+	@echo "\t"Fecha: Viernes 4 de Noviembre de 2016 - 14:40 "\n"
 
+fea: 
+	g++ ./leopardo/fea.cpp -o fea
+	@echo "\t"Compilando fea
+	@echo "\t"Fecha: Viernes 4 de Noviembre de 2016 - 14:40 "\n"
 
+alamierda:
+	g++ ./leopardo/alamierda.cpp -o alamierda
+	@echo "\t"Compilando alamierda
+	@echo "\t"Fecha: Viernes 4 de Noviembre de 2016 - 15:00 "\n"
+
+toro: 
+	g++ ./leopardo/toro.cpp -o toro
+	@echo "\t"Compilando toro
+	@echo "\t"Fecha: Viernes 4 de Noviembre de 2016 - 15:00 "\n"
+
+andaguapa:
+	g++ ./leopardo/andaguapa.cpp -o andaguapa
+	@echo "\t"Compilando andaguapa
+	@echo "\t"Fecha: Viernes 4 de Noviembre de 2016 - 15:40 "\n"
+
+tetas: 
+	g++ ./leopardo/tetas.cpp -o tetas
+	@echo "\t"Compilando tetas
+	@echo "\t"Fecha: Viernes 4 de Noviembre de 2016 - 15:40 "\n"
+
+pollanova:
+	g++ ./leopardo/pollanova.cpp -o pollanova
+	@echo "\t"Compilando pollanova
+	@echo "\t"Fecha: Viernes 4 de Noviembre de 2016 - 15:40 "\n"
+
+ojete:
+	g++ ./leopardo/ojete.cpp -o ojete
+	@echo "\t"Compilando ojete
+	@echo "\t"Fecha: Viernes 4 de Noviembre de 2016 - 16:00 "\n"
+
+mundo:
+	g++ ./leopardo/mundo.cpp -o mundo
+	@echo "\t"Compilando mundo
+	@echo "\t"Fecha: Viernes 4 de Noviembre de 2016 - 16:00 "\n"
+
+conio:
+	g++ ./leopardo/conio.cpp -o conio
+	@echo "\t"Compilando conio
+	@echo "\t"Fecha: Viernes 4 de Noviembre de 2016 - 16:15 "\n"
+
+ambipur:
+	g++ ./leopardo/ambipur.cpp -o ambipur
+	@echo "\t"Compilando ambipur
+	@echo "\t"Fecha: Viernes 4 de Noviembre de 2016 - 16:15 "\n"
+
+tarrastro:
+	g++ ./leopardo/tarrastro.cpp -o tarrastro
+	@echo "\t"Compilando tarrastro
+	@echo "\t"Fecha: Viernes 4 de Noviembre de 2016 - 16:15 "\n"
+
+deto:
+	g++ ./leopardo/deto.cpp -o deto
+	@echo "\t"Compilando deto
+	@echo "\t"Fecha: Viernes 4 de Noviembre de 2016 - 16:15 "\n"
+
+besos:
+	g++ ./leopardo/besos.cpp -o besos
+	@echo "\t"Compilando besos
+	@echo "\t"Fecha: Viernes 4 de Noviembre de 2016 - 16:15 "\n"
 
 
 #=======================================================================================================================#
@@ -428,16 +492,18 @@ install:
 	@cp -f ./{mopa,boxer,ATS,amiga,marranona,aceite} /usr/local/bin
 	@cp -f ./{ordinaria,carne,perdon,maradona,espania,vos,talco,popeye,cuerpo,conosia,androcur,fisna,obesa,curriculum,caballo,canto,vida,furgolista,tarantula,uy,geronimo,aprende,polaca,labrar,ashin,bellezas,reto,cuerpoCompleto,colectivo,pollaNova,insultar,callate,dosEnBragas,incurta,suda,copia,personaje,denegao,si,quirofanoCompleto,quirofano,muerta,fama,quiere,puton,higuera,esta,conozco,criticar,sombra,envidiosa,envidiaSana,ursula,lepego,camaleonica,dormir,anda,canalla} /usr/local/bin
 	@cp -f ./{cuernos,cansa,libro} /usr/local/bin
+	@cp -f ./{adelante,fea,alamierda,toro, andaguapa,tetas,pollanova,ojete,mundo, conio, ambipur,tarrastro,deto,besos} /usr/local/bin
 	@mkdir -p /usr/local/bin/audiosVenenisticos
 	@cp -rfp sounds /usr/local/bin/audiosVenenisticos
 
 # Desinstalación standard
 uninstall:
-	@rm /usr/local/bin/{rosi,sandra,manolo,camellona,sevillana,rocio,manola}
-	@rm /usr/local/bin/{mopa,boxer,ATS,amiga,marranona,aceite}
-	@rm /usr/local/bin/{ordinaria,carne,perdon,maradona,espania,vos,talco,popeye,cuerpo,conosia,androcur,fisna,obesa,curriculum,caballo,canto,vida,furgolista,tarantula,uy,geronimo,aprende,polaca,labrar,ashin,bellezas,reto,cuerpoCompleto,colectivo,pollaNova,insultar,callate,dosEnBragas,incurta,suda,copia,personaje,denegao,si,quirofanoCompleto,quirofano,muerta,fama,quiere,puton,higuera,esta,conozco,criticar,sombra,envidiosa,envidiaSana,ursula,lepego,camaleonica,dormir,anda,canalla}
-	@rm /usr/local/bin/{cuernos,cansa,libro}
-	@rm -rf /usr/local/bin/audiosVenenisticos/
+	-rm /usr/local/bin/{rosi,sandra,manolo,camellona,sevillana,rocio,manola}
+	-rm /usr/local/bin/{mopa,boxer,ATS,amiga,marranona,aceite}
+	-rm /usr/local/bin/{ordinaria,carne,perdon,maradona,espania,vos,talco,popeye,cuerpo,conosia,androcur,fisna,obesa,curriculum,caballo,canto,vida,furgolista,tarantula,uy,geronimo,aprende,polaca,labrar,ashin,bellezas,reto,cuerpoCompleto,colectivo,pollaNova,insultar,callate,dosEnBragas,incurta,suda,copia,personaje,denegao,si,quirofanoCompleto,quirofano,muerta,fama,quiere,puton,higuera,esta,conozco,criticar,sombra,envidiosa,envidiaSana,ursula,lepego,camaleonica,dormir,anda,canalla}
+	-rm /usr/local/bin/{cuernos,cansa,libro}
+	-rm /usr/local/bin/{adelante,fea,alamierda, toro,andaguapa,tetas,pollanova,ojete,mundo, conio, ambipur,tarrastro,deto,besos}
+	-rm -rf /usr/local/bin/audiosVenenisticos/
 	@cat veneno.txt
 	@echo "\n La desinstalación ha sido completada \n\n"
 
@@ -520,6 +586,20 @@ install-forced:
 	@cp dormir /usr/local/bin
 	@cp anda /usr/local/bin
 	@cp canalla /usr/local/bin
+	@cp adelante /usr/local/bin
+	@cp fea /usr/local/bin
+	@cp alamierda /usr/local/bin
+	@cp toro /usr/local/bin
+	@cp andaguapa /usr/local/bin
+	@cp tetas /usr/local/bin
+	@cp pollanova /usr/local/bin
+	@cp ojete /usr/local/bin
+	@cp mundo /usr/local/bin
+	@cp conio /usr/local/bin
+	@cp ambipur /usr/local/bin
+	@cp tarrastro /usr/local/bin
+	@cp deto /usr/local/bin
+	@cp besos /usr/local/bin
 	@mkdir -p /usr/local/bin/audiosVenenisticos
 	@cp -rfp sounds /usr/local/bin/audiosVenenisticos
 
@@ -527,84 +607,97 @@ install-forced:
 # Desinstalación forzosa
 uninstall-forced:
 	@echo Desinstalando de forma forzosa
-	@rm /usr/local/bin/rosi
-	@rm /usr/local/bin/camellona 
-	@rm /usr/local/bin/manola  
-	@rm /usr/local/bin/manolo 
-	@rm /usr/local/bin/rocio 
-	@rm /usr/local/bin/rosi 
-	@rm /usr/local/bin/sandra 
-	@rm /usr/local/bin/sevillana 
-	@rm /usr/local/bin/aceite 
-	@rm /usr/local/bin/amiga 
-	@rm /usr/local/bin/ATS 
-	@rm /usr/local/bin/boxer 
-	@rm /usr/local/bin/marranona 
-	@rm /usr/local/bin/mopa 
-	@rm /usr/local/bin/androcur 
-	@rm /usr/local/bin/carne 
-	@rm /usr/local/bin/conosia 
-	@rm /usr/local/bin/cuerpo 
-	@rm /usr/local/bin/espania 
-	@rm /usr/local/bin/fisna 
-	@rm /usr/local/bin/maradona 
-	@rm /usr/local/bin/obesa 
-	@rm /usr/local/bin/ordinaria 
-	@rm /usr/local/bin/perdon 
-	@rm /usr/local/bin/popeye 
-	@rm /usr/local/bin/talco 
-	@rm /usr/local/bin/vos 
-	@rm /usr/local/bin/cansa 
-	@rm /usr/local/bin/cuernos
-	@rm /usr/local/bin/libro
-	@rm /usr/local/bin/curriculum
-	@rm /usr/local/bin/caballo
-	@rm /usr/local/bin/canto
-	@rm /usr/local/bin/vida
-	@rm /usr/local/bin/furgolista
-	@rm /usr/local/bin/tarantula
-	@rm /usr/local/bin/uy 
-	@rm /usr/local/bin/geronimo 
-	@rm /usr/local/bin/aprende 
-	@rm /usr/local/bin/polaca 
-	@rm /usr/local/bin/labrar 
-	@rm /usr/local/bin/ashin 
-	@rm /usr/local/bin/bellezas 
-	@rm /usr/local/bin/reto 
-	@rm /usr/local/bin/cuerpoCompleto 
-	@rm /usr/local/bin/colectivo 
-	@rm /usr/local/bin/pollaNova 
-	@rm /usr/local/bin/insultar 
-	@rm /usr/local/bin/callate 
-	@rm /usr/local/bin/dosEnBragas 
-	@rm /usr/local/bin/incurta 
-	@rm /usr/local/bin/suda 
-	@rm /usr/local/bin/copia 
-	@rm /usr/local/bin/personaje 
-	@rm /usr/local/bin/denegao 
-	@rm /usr/local/bin/si 
-	@rm /usr/local/bin/quirofanoCompleto 
-	@rm /usr/local/bin/quirofano 
-	@rm /usr/local/bin/muerta 
-	@rm /usr/local/bin/fama 
-	@rm /usr/local/bin/quiere 
-	@rm /usr/local/bin/puton 
-	@rm /usr/local/bin/higuera 
-	@rm /usr/local/bin/esta 
-	@rm /usr/local/bin/conozco 
-	@rm /usr/local/bin/criticar 
-	@rm /usr/local/bin/sombra 
-	@rm /usr/local/bin/envidiosa 
-	@rm /usr/local/bin/envidiaSana 
-	@rm /usr/local/bin/ursula 
-	@rm /usr/local/bin/lepego 
-	@rm /usr/local/bin/camaleonica 
-	@rm /usr/local/bin/dormir 
-	@rm /usr/local/bin/anda 
-	@rm /usr/local/bin/canalla 
+	-rm /usr/local/bin/rosi
+	-rm /usr/local/bin/camellona 
+	-rm /usr/local/bin/manola  
+	-rm /usr/local/bin/manolo 
+	-rm /usr/local/bin/rocio 
+	-rm /usr/local/bin/rosi 
+	-rm /usr/local/bin/sandra 
+	-rm /usr/local/bin/sevillana 
+	-rm /usr/local/bin/aceite 
+	-rm /usr/local/bin/amiga 
+	-rm /usr/local/bin/ATS 
+	-rm /usr/local/bin/boxer 
+	-rm /usr/local/bin/marranona 
+	-rm /usr/local/bin/mopa 
+	-rm /usr/local/bin/androcur 
+	-rm /usr/local/bin/carne 
+	-rm /usr/local/bin/conosia 
+	-rm /usr/local/bin/cuerpo 
+	-rm /usr/local/bin/espania 
+	-rm /usr/local/bin/fisna 
+	-rm /usr/local/bin/maradona 
+	-rm /usr/local/bin/obesa 
+	-rm /usr/local/bin/ordinaria 
+	-rm /usr/local/bin/perdon 
+	-rm /usr/local/bin/popeye 
+	-rm /usr/local/bin/talco 
+	-rm /usr/local/bin/vos 
+	-rm /usr/local/bin/cansa 
+	-rm /usr/local/bin/cuernos
+	-rm /usr/local/bin/libro
+	-rm /usr/local/bin/curriculum
+	-rm /usr/local/bin/caballo
+	-rm /usr/local/bin/canto
+	-rm /usr/local/bin/vida
+	-rm /usr/local/bin/furgolista
+	-rm /usr/local/bin/tarantula
+	-rm /usr/local/bin/uy 
+	-rm /usr/local/bin/geronimo 
+	-rm /usr/local/bin/aprende 
+	-rm /usr/local/bin/polaca 
+	-rm /usr/local/bin/labrar 
+	-rm /usr/local/bin/ashin 
+	-rm /usr/local/bin/bellezas 
+	-rm /usr/local/bin/reto 
+	-rm /usr/local/bin/cuerpoCompleto 
+	-rm /usr/local/bin/colectivo 
+	-rm /usr/local/bin/pollaNova 
+	-rm /usr/local/bin/insultar 
+	-rm /usr/local/bin/callate 
+	-rm /usr/local/bin/dosEnBragas 
+	-rm /usr/local/bin/incurta 
+	-rm /usr/local/bin/suda 
+	-rm /usr/local/bin/copia 
+	-rm /usr/local/bin/personaje 
+	-rm /usr/local/bin/denegao 
+	-rm /usr/local/bin/si 
+	-rm /usr/local/bin/quirofanoCompleto 
+	-rm /usr/local/bin/quirofano 
+	-rm /usr/local/bin/muerta 
+	-rm /usr/local/bin/fama 
+	-rm /usr/local/bin/quiere 
+	-rm /usr/local/bin/puton 
+	-rm /usr/local/bin/higuera 
+	-rm /usr/local/bin/esta 
+	-rm /usr/local/bin/conozco 
+	-rm /usr/local/bin/criticar 
+	-rm /usr/local/bin/sombra 
+	-rm /usr/local/bin/envidiosa 
+	-rm /usr/local/bin/envidiaSana 
+	-rm /usr/local/bin/ursula 
+	-rm /usr/local/bin/lepego 
+	-rm /usr/local/bin/camaleonica 
+	-rm /usr/local/bin/dormir 
+	-rm /usr/local/bin/anda 
+	-rm /usr/local/bin/canalla 
+	-rm /usr/local/bin/adelante
+	-rm /usr/local/bin/fea
+	-rm /usr/local/bin/alamierda
+	-rm /usr/local/bin/toro
+	-rm /usr/local/bin/andaguapa
+	-rm /usr/local/bin/tetas
+	-rm /usr/local/bin/pollanova
+	-rm /usr/local/bin/ojete
+	-rm /usr/local/bin/mundo	
+	-rm /usr/local/bin/conio
+	-rm /usr/local/bin/ambipur
+	-rm /usr/local/bin/tarrastro
+	-rm /usr/local/bin/deto
+	-rm /usr/local/bin/besos
 
-
-	@rm -rf /usr/local/bin/audiosVenenisticos/
+	-rm -rf /usr/local/bin/audiosVenenisticos/
 	@cat veneno.txt
 	@echo "\n La desinstalación ha sido completada \n\n"
 
@@ -618,93 +711,104 @@ uninstall-forced:
 clean: banner transparente
 	@echo Limpiando todos los archivos ejecutables
 	@tput sgr0;
-	@rm ./{rosi,sandra,manolo,camellona,sevillana,rocio,manola}
-	@rm ./{mopa,boxer,ATS,amiga,marranona,aceite}
-	@rm ./{ordinaria,carne,perdon,maradona,espania,vos,talco,popeye,cuerpo,conosia,androcur,fisna,obesa,curriculum,caballo,canto,vida,furgolista,tarantula,uy,geronimo,aprende,polaca,labrar,ashin,bellezas,reto,cuerpoCompleto,colectivo,pollaNova,insultar,callate,dosEnBragas,incurta,suda,copia,personaje,denegao,si,quirofanoCompleto,quirofano,muerta,fama,quiere,puton,higuera,esta,conozco,criticar,sombra,envidiosa,envidiaSana,ursula,lepego,camaleonica,dormir,anda,canalla}
-	@rm ./{cuernos,cansa,libro}
-
+	-rm ./{rosi,sandra,manolo,camellona,sevillana,rocio,manola}
+	-rm ./{mopa,boxer,ATS,amiga,marranona,aceite}
+	-rm ./{ordinaria,carne,perdon,maradona,espania,vos,talco,popeye,cuerpo,conosia,androcur,fisna,obesa,curriculum,caballo,canto,vida,furgolista,tarantula,uy,geronimo,aprende,polaca,labrar,ashin,bellezas,reto,cuerpoCompleto,colectivo,pollaNova,insultar,callate,dosEnBragas,incurta,suda,copia,personaje,denegao,si,quirofanoCompleto,quirofano,muerta,fama,quiere,puton,higuera,esta,conozco,criticar,sombra,envidiosa,envidiaSana,ursula,lepego,camaleonica,dormir,anda,canalla}
+	-rm ./{cuernos,cansa,libro}
+	-rm ./{adelante,fea,alamierda,toro,tetas, pollanova,ojete,mundo, conio, ambipur, tarrastro,besos}
 
 clean-forced:
 	@echo Limpiando todos los archivos ejecutables
 	@tput sgr0;
-	@rm rosi
-	@rm camellona 
-	@rm manola  
-	@rm manolo 
-	@rm rocio 
-	@rm rosi 
-	@rm sandra 
-	@rm sevillana 
-	@rm aceite 
-	@rm amiga 
-	@rm ATS 
-	@rm boxer 
-	@rm marranona 
-	@rm mopa 
-	@rm androcur 
-	@rm carne 
-	@rm conosia 
-	@rm cuerpo 
-	@rm espania 
-	@rm fisna 
-	@rm maradona 
-	@rm obesa 
-	@rm ordinaria 
-	@rm perdon 
-	@rm popeye 
-	@rm talco 
-	@rm vos 
-	@rm cansa 
-	@rm cuernos 
-	@rm libro
-	@rm curriculum
-	@rm caballo
-	@rm canto
-	@rm vida
-	@rm furgolista
-	@rm tarantula
-	@rm uy 
-	@rm geronimo 
-	@rm aprende 
-	@rm polaca 
-	@rm labrar 
-	@rm ashin 
-	@rm bellezas 
-	@rm reto 
-	@rm cuerpoCompleto 
-	@rm colectivo 
-	@rm pollaNova 
-	@rm insultar 
-	@rm callate 
-	@rm dosEnBragas 
-	@rm incurta 
-	@rm suda 
-	@rm copia 
-	@rm personaje 
-	@rm denegao 
-	@rm si 
-	@rm quirofanoCompleto 
-	@rm quirofano 
-	@rm muerta 
-	@rm fama 
-	@rm quiere 
-	@rm puton 
-	@rm higuera 
-	@rm esta 
-	@rm conozco 
-	@rm criticar 
-	@rm sombra 
-	@rm envidiosa 
-	@rm envidiaSana 
-	@rm ursula 
-	@rm lepego 
-	@rm camaleonica 
-	@rm dormir 
-	@rm anda 
-	@rm canalla 
-
-
-
+	-rm rosi
+	-rm camellona 
+	-rm manola  
+	-rm manolo 
+	-rm rocio 
+	-rm rosi 
+	-rm sandra 
+	-rm sevillana 
+	-rm aceite 
+	-rm amiga 
+	-rm ATS 
+	-rm boxer 
+	-rm marranona 
+	-rm mopa 
+	-rm androcur 
+	-rm carne 
+	-rm conosia 
+	-rm cuerpo 
+	-rm espania 
+	-rm fisna 
+	-rm maradona 
+	-rm obesa 
+	-rm ordinaria 
+	-rm perdon 
+	-rm popeye 
+	-rm talco 
+	-rm vos 
+	-rm cansa 
+	-rm cuernos 
+	-rm libro
+	-rm curriculum
+	-rm caballo
+	-rm canto
+	-rm vida
+	-rm furgolista
+	-rm tarantula
+	-rm uy 
+	-rm geronimo 
+	-rm aprende 
+	-rm polaca 
+	-rm labrar 
+	-rm ashin 
+	-rm bellezas 
+	-rm reto 
+	-rm cuerpoCompleto 
+	-rm colectivo 
+	-rm pollaNova 
+	-rm insultar 
+	-rm callate 
+	-rm dosEnBragas 
+	-rm incurta 
+	-rm suda 
+	-rm copia 
+	-rm personaje 
+	-rm denegao 
+	-rm si 
+	-rm quirofanoCompleto 
+	-rm quirofano 
+	-rm muerta 
+	-rm fama 
+	-rm quiere 
+	-rm puton 
+	-rm higuera 
+	-rm esta 
+	-rm conozco 
+	-rm criticar 
+	-rm sombra 
+	-rm envidiosa 
+	-rm envidiaSana 
+	-rm ursula 
+	-rm lepego 
+	-rm camaleonica 
+	-rm dormir 
+	-rm anda 
+	-rm canalla 
+	-rm adelante
+	-rm fea
+	-rm alamierda
+	-rm toro
+	-rm andaguapa
+	-rm tetas
+	-rm pollanova
+	-rm ojete
+	-rm mundo
+	-rm conio
+	-rm ambipur
+	-rm tarrastro
+	-rm deto
+	-rm besos
 
 
 #=======================================================================================================================#

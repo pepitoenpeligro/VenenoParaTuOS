@@ -138,6 +138,10 @@ Todos los recursos están organizados según temática (travestis, marisol, nova
  87. tarrastro
  88. tetas
  89. toro
+ 90. brilla
+ 91. cubata
+ 92. negra
+ 93. poderio
 
 
 
@@ -279,6 +283,9 @@ TODO
 
     marisol:
         1. cirujana.mp3 (sin procesar)
+	
+    cartier:
+    	2. cartier.mp3 (PROCESADO COMPLETO)
 
     install:
         1.ayquerisa.mp3 (PROCESADO COMPLETO)

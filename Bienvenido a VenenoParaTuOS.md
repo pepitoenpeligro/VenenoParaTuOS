@@ -256,6 +256,11 @@ TODO
         13. Add: "tetas.cpp"
         14. Add: "toro.cpp"
 
+    Versión actual: 1.1 - Domingo 6 de Noviembre de 2016 a las 17:00
+        1. Corte de audios
+        2. Compresión de audios -> 128 MB --> 28 MB
+        3. Cambio de los fuentes
+
 
 
 

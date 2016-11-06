@@ -13,7 +13,7 @@ void Texto(){
 
 
 void Audio(){
-	system("play -q /usr/local/bin/audiosVenenisticos/sounds/nova/venenoNova1.mp3 trim 00:53.8 00:07.25 &");
+	system("play -q /usr/local/bin/audiosVenenisticos/sounds/nova/furgolista.mp3 &");
 }
 
 int main(int argc, char* argv[]){

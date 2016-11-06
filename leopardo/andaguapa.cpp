@@ -8,7 +8,7 @@ void Texto(){
 }
 
 void Audio(){
-	system("play -q /usr/local/bin/audiosVenenisticos/sounds/leopardo/leopardo.mp3 trim 03:13 3 &");
+	system("play -q /usr/local/bin/audiosVenenisticos/sounds/leopardo/andaguapa.mp3 &");
 }
 
 int main(int argc, char* argv[]){

@@ -13,7 +13,7 @@ void Texto(){
 
 void Audio(){
 	// Modificar tiempo
-	system("play -q /usr/local/bin/audiosVenenisticos/sounds/nova/venenoNova1.mp3 trim 04:13.4 00:15.7 &");
+	system("play -q /usr/local/bin/audiosVenenisticos/sounds/nova/reto.mp3 &");
 }
 
 int main(int argc, char* argv[]){

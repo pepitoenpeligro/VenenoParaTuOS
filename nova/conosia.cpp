@@ -21,7 +21,7 @@ void Texto(){
 }
 
 void Audio(){
-	system("play -q /usr/local/bin/audiosVenenisticos/sounds/nova/leopardo.mp3 trim 01:03 00:49.2 &");
+	system("play -q /usr/local/bin/audiosVenenisticos/sounds/nova/conosia.mp3 &");
 }
 
 int main(int argc, char* argv[]){

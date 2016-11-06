@@ -8,7 +8,7 @@ void Texto(){
 }
 
 void Audio(){
-	system("play -q /usr/local/bin/audiosVenenisticos/sounds/nova/venenoNova1.mp3 trim 10:20.12 00:1.95 &");
+	system("play -q /usr/local/bin/audiosVenenisticos/sounds/nova/conozco.mp3 &");
 }
 
 int main(int argc, char* argv[]){

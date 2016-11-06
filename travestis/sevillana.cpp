@@ -13,7 +13,7 @@ void Texto(){
 }
 
 void Audio(){
-	system("play -q /usr/local/bin/audiosVenenisticos/sounds/marisol/cirujana.mp3 trim 06:20.6 00:16.7 &");
+	system("play -q /usr/local/bin/audiosVenenisticos/sounds/travestis/sevillana.mp3 &");
 }
 int main(int argc, char* argv[]){
 	

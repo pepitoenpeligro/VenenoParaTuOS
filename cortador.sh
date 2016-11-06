@@ -3,25 +3,25 @@
 
 #### Carpeta de travestis
 # camellona
-ffmpeg -i sounds/marisol/cirujana.mp3 -ss 05:08.7 -t 00:07.2 -c copy sounds/marisol/camellona.mp3
+ffmpeg -i sounds/marisol/cirujana.mp3 -ss 05:08.7 -t 00:07.2 -c copy sounds/travestis/camellona.mp3
 
 # manola
-ffmpeg -i sounds/marisol/cirujana.mp3 -ss 04:15.1  -t 00:43.8 -c copy sounds/marisol/manola.mp3
+ffmpeg -i sounds/marisol/cirujana.mp3 -ss 04:15.1  -t 00:43.8 -c copy sounds/travestis/manola.mp3
 
 # manolo
-ffmpeg -i sounds/nova/venenoNova1.mp3 -ss 03:02 -t 00:24 -c copy sounds/marisol/manolo.mp3
+ffmpeg -i sounds/nova/venenoNova1.mp3 -ss 03:02 -t 00:24 -c copy sounds/travestis/manolo.mp3
 
 # rocio
-ffmpeg -i sounds/marisol/cirujana.mp3 -ss 05:16 -t 00:18.3 -c copy sounds/marisol/rocio.mp3
+ffmpeg -i sounds/marisol/cirujana.mp3 -ss 05:16 -t 00:18.3 -c copy sounds/travestis/rocio.mp3
 
 # rosi
-ffmpeg -i sounds/marisol/cirujana.mp3 -ss 02:29.6 -t 00:9.5 -c copy sounds/marisol/rosi.mp3
+ffmpeg -i sounds/marisol/cirujana.mp3 -ss 02:29.6 -t 00:9.5 -c copy sounds/travestis/rosi.mp3
 
 # sandra
-ffmpeg -i sounds/marisol/cirujana.mp3 -ss 09:31 -t 00:03.3 -c copy sounds/marisol/sandra.mp3
+ffmpeg -i sounds/marisol/cirujana.mp3 -ss 09:31 -t 00:03.3 -c copy sounds/travestis/sandra.mp3
 
 # sevillana
-ffmpeg -i sounds/marisol/cirujana.mp3 -ss 06:20.6 -t 00:16.7 -c copy sounds/marisol/sevillana.mp3
+ffmpeg -i sounds/marisol/cirujana.mp3 -ss 06:20.6 -t 00:16.7 -c copy sounds/travestis/sevillana.mp3
 
 
 #####################################################################################################
@@ -242,47 +242,55 @@ ffmpeg -i sounds/nova/venenoNova2.mp3 -ss 11:47.7 -t 00:2.2 -c copy sounds/nova/
 
 #### Carpeta leopardo
 #adelante
-ffmpeg -i sounds/leopardo/leopardo.mp3 -ss 00:10 -t 2 -c copy sounds/nova/adelante.mp3
+ffmpeg -i sounds/leopardo/leopardo.mp3 -ss 00:10 -t 2 -c copy sounds/leopardo/adelante.mp3
 
 #alamierda
-ffmpeg -i sounds/leopardo/leopardo.mp3 -ss 02:16 -r 1.5 -c copy sounds/nova/alamierda.mp3
+ffmpeg -i sounds/leopardo/leopardo.mp3 -ss 02:16 -r 1.5 -c copy sounds/leopardo/alamierda.mp3
 
 #ambipur
-ffmpeg -i sounds/leopardo/leopardo.mp3 -ss 05:43 -t 5 -c copy sounds/nova/ambipur.mp3
+ffmpeg -i sounds/leopardo/leopardo.mp3 -ss 05:43 -t 5 -c copy sounds/leopardo/ambipur.mp3
 
 #andaguapa
-ffmpeg -i sounds/leopardo/leopardo.mp3 -ss 03:13 -t 3 -c copy sounds/nova/andaguapa.mp3
+ffmpeg -i sounds/leopardo/leopardo.mp3 -ss 03:13 -t 3 -c copy sounds/leopardo/andaguapa.mp3
 
 #besos
-ffmpeg -i sounds/leopardo/leopardo.mp3 -ss 06:54.3 -t 10 -c copy sounds/nova/besos.mp3
+ffmpeg -i sounds/leopardo/leopardo.mp3 -ss 06:54.3 -t 10 -c copy sounds/leopardo/besos.mp3
 
 #conio
-ffmpeg -i sounds/leopardo/leopardo.mp3 -ss 05:30.3 -t 1.5 -c copy sounds/nova/conio.mp3
+ffmpeg -i sounds/leopardo/leopardo.mp3 -ss 05:30.3 -t 1.5 -c copy sounds/leopardo/conio.mp3
 
 #deto
-ffmpeg -i sounds/leopardo/leopardo.mp3 -ss 06:04 -t 34.7 -c copy sounds/nova/deto.mp3
+ffmpeg -i sounds/leopardo/leopardo.mp3 -ss 06:04 -t 34.7 -c copy sounds/leopardo/deto.mp3
 
 #fea
-ffmpeg -i sounds/leopardo/leopardo.mp3 -ss 02:14 -t 2 -c copy sounds/nova/fea.mp3
+ffmpeg -i sounds/leopardo/leopardo.mp3 -ss 02:14 -t 2 -c copy sounds/leopardo/fea.mp3
 
 #mundo
-ffmpeg -i sounds/leopardo/leopardo.mp3 -ss 04:29 -t 7.1 -c copy sounds/nova/mundo.mp3
+ffmpeg -i sounds/leopardo/leopardo.mp3 -ss 04:29 -t 7.1 -c copy sounds/leopardo/mundo.mp3
 
 #ojete
-ffmpeg -i sounds/leopardo/leopardo.mp3 -ss 04:17 -t 7.3 -c copy sounds/nova/ojete.mp3
+ffmpeg -i sounds/leopardo/leopardo.mp3 -ss 04:17 -t 7.3 -c copy sounds/leopardo/ojete.mp3
 
 #pollanova
-ffmpeg -i sounds/leopardo/leopardo.mp3 -ss 04:00 -t 13 -c copy sounds/nova/pollanova.mp3
+ffmpeg -i sounds/leopardo/leopardo.mp3 -ss 04:00 -t 13 -c copy sounds/leopardo/pollaleopardo.mp3
 
 #tarrastro
-ffmpeg -i sounds/leopardo/leopardo.mp3 -ss 05:53 -t 3.7 -c copy sounds/nova/tarrastro.mp3
+ffmpeg -i sounds/leopardo/leopardo.mp3 -ss 05:53 -t 3.7 -c copy sounds/leopardo/tarrastro.mp3
 
 #tetas
-ffmpeg -i sounds/leopardo/leopardo.mp3 -ss 03:44 -t 3.8 -c copy sounds/nova/tetas.mp3
+ffmpeg -i sounds/leopardo/leopardo.mp3 -ss 03:44 -t 3.8 -c copy sounds/leopardo/tetas.mp3
 
 #toro
-ffmpeg -i sounds/leopardo/leopardo.mp3 -ss 02:31 -t 8.5 -c copy sounds/nova/toro.mp3
+ffmpeg -i sounds/leopardo/leopardo.mp3 -ss 02:31 -t 8.5 -c copy sounds/leopardo/toro.mp3
 
+
+
+#### Borrador
+rm sounds/marisol/cirujana.mp3
+rm sounds/leopardo/leopardo.mp3
+rm sounds/nova/venenoNova1.mp3
+rm sounds/nova/venenoNova2.mp3
+rm sounds/nova/androcurs.mp3
 
 
 

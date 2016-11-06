@@ -9,7 +9,7 @@ void Texto(){
 }
 
 void Audio(){
-	system("play -q /usr/local/bin/audiosVenenisticos/sounds/leopardo/leopardo.mp3 trim 03:44 3.8 &");
+	system("play -q /usr/local/bin/audiosVenenisticos/sounds/leopardo/tetas.mp3 &");
 }
 
 int main(int argc, char* argv[]){

@@ -10,7 +10,7 @@ void Texto(){
 }
 
 void Audio(){
-	system("play -q /usr/local/bin/audiosVenenisticos/sounds/nova/androcurs.mp3 trim 0:021.2 00:5.1&");
+	system("play -q /usr/local/bin/audiosVenenisticos/sounds/nova/obesa.mp3 &");
 }
 
 int main(int argc, char* argv[]){

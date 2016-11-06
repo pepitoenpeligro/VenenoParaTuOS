@@ -6,7 +6,7 @@
 #Ejecutar con sudo mejor
 
 # Objetivos importantes
-all: dependencias banner impresion rojo travestis verde marisol magenta nova negro propio restablecer install final
+all: dependencias banner impresion rojo travestis verde marisol magenta nova negro propio amarillo leopardo restablecer install final
 
 #=======================================================================================================================#
 
@@ -15,6 +15,7 @@ all: dependencias banner impresion rojo travestis verde marisol magenta nova neg
 # Verde  = marisol
 # Magenta = nova
 # Negro = propios
+# Amarillo = leopardo
 
 travestis: rosi sandra manolo camellona sevillana rocio manola		
 
@@ -23,6 +24,8 @@ marisol:  mopa boxer ATS amiga marranona aceite
 nova: ordinaria carne perdon maradona espania vos talco popeye cuerpo conosia androcur fisna obesa curriculum caballo canto vida furgolista tarantula uy geronimo aprende polaca labrar ashin bellezas reto cuerpoCompleto colectivo pollaNova insultar callate dosEnBragas incurta suda copia personaje denegao si quirofanoCompleto quirofano muerta fama quiere puton higuera esta conozco criticar sombra envidiosa envidiaSana ursula lepego camaleonica dormir anda canalla
 
 propio: cuernos cansa libro
+
+leopardo: adelante alamierda ambipur andaguapa besos conio deto fea mundo ojete pollanova tarrastro tetas toro
 
 
 #=======================================================================================================================#
@@ -410,6 +413,76 @@ geronimo:
 
 
 
+adelante:
+	g++ ./leopardo/adelante.cpp -o adelante
+	@echo "\t"Compilando adelante
+	@echo "\t"Fecha: Viernes 4 de Noviembre de 2016 - 14:40 "\n"
+
+fea: 
+	g++ ./leopardo/fea.cpp -o fea
+	@echo "\t"Compilando fea
+	@echo "\t"Fecha: Viernes 4 de Noviembre de 2016 - 14:40 "\n"
+
+alamierda:
+	g++ ./leopardo/alamierda.cpp -o alamierda
+	@echo "\t"Compilando alamierda
+	@echo "\t"Fecha: Viernes 4 de Noviembre de 2016 - 15:00 "\n"
+
+toro: 
+	g++ ./leopardo/toro.cpp -o toro
+	@echo "\t"Compilando toro
+	@echo "\t"Fecha: Viernes 4 de Noviembre de 2016 - 15:00 "\n"
+
+andaguapa:
+	g++ ./leopardo/andaguapa.cpp -o andaguapa
+	@echo "\t"Compilando andaguapa
+	@echo "\t"Fecha: Viernes 4 de Noviembre de 2016 - 15:40 "\n"
+
+tetas: 
+	g++ ./leopardo/tetas.cpp -o tetas
+	@echo "\t"Compilando tetas
+	@echo "\t"Fecha: Viernes 4 de Noviembre de 2016 - 15:40 "\n"
+
+pollanova:
+	g++ ./leopardo/pollanova.cpp -o pollanova
+	@echo "\t"Compilando pollanova
+	@echo "\t"Fecha: Viernes 4 de Noviembre de 2016 - 15:40 "\n"
+
+ojete:
+	g++ ./leopardo/ojete.cpp -o ojete
+	@echo "\t"Compilando ojete
+	@echo "\t"Fecha: Viernes 4 de Noviembre de 2016 - 16:00 "\n"
+
+mundo:
+	g++ ./leopardo/mundo.cpp -o mundo
+	@echo "\t"Compilando mundo
+	@echo "\t"Fecha: Viernes 4 de Noviembre de 2016 - 16:00 "\n"
+
+conio:
+	g++ ./leopardo/conio.cpp -o conio
+	@echo "\t"Compilando conio
+	@echo "\t"Fecha: Viernes 4 de Noviembre de 2016 - 16:15 "\n"
+
+ambipur:
+	g++ ./leopardo/ambipur.cpp -o ambipur
+	@echo "\t"Compilando ambipur
+	@echo "\t"Fecha: Viernes 4 de Noviembre de 2016 - 16:15 "\n"
+
+tarrastro:
+	g++ ./leopardo/tarrastro.cpp -o tarrastro
+	@echo "\t"Compilando tarrastro
+	@echo "\t"Fecha: Viernes 4 de Noviembre de 2016 - 16:15 "\n"
+
+deto:
+	g++ ./leopardo/deto.cpp -o deto
+	@echo "\t"Compilando deto
+	@echo "\t"Fecha: Viernes 4 de Noviembre de 2016 - 16:15 "\n"
+
+besos:
+	g++ ./leopardo/besos.cpp -o besos
+	@echo "\t"Compilando besos
+	@echo "\t"Fecha: Viernes 4 de Noviembre de 2016 - 16:15 "\n"
+
 
 
 
@@ -424,6 +497,7 @@ install:
 	@cp -f ./{mopa,boxer,ATS,amiga,marranona,aceite} /usr/local/bin
 	@cp -f ./{ordinaria,carne,perdon,maradona,espania,vos,talco,popeye,cuerpo,conosia,androcur,fisna,obesa,curriculum,caballo,canto,vida,furgolista,tarantula,uy,geronimo,aprende,polaca,labrar,ashin,bellezas,reto,cuerpoCompleto,colectivo,pollaNova,insultar,callate,dosEnBragas,incurta,suda,copia,personaje,denegao,si,quirofanoCompleto,quirofano,muerta,fama,quiere,puton,higuera,esta,conozco,criticar,sombra,envidiosa,envidiaSana,ursula,lepego,camaleonica,dormir,anda,canalla} /usr/local/bin
 	@cp -f ./{cuernos,cansa,libro} /usr/local/bin
+	@cp -f ./{adelante,alamierda,ambipur,andaguapa,besos,conio,deto,fea,mundo,ojete,pollanova,tarrastro,tetas,toro} /usr/local/bin
 	@mkdir -p /usr/local/bin/audiosVenenisticos
 	@cp -rfp sounds /usr/local/bin/audiosVenenisticos
 
@@ -433,6 +507,7 @@ uninstall:
 	@rm /usr/local/bin/{mopa,boxer,ATS,amiga,marranona,aceite}
 	@rm /usr/local/bin/{ordinaria,carne,perdon,maradona,espania,vos,talco,popeye,cuerpo,conosia,androcur,fisna,obesa,curriculum,caballo,canto,vida,furgolista,tarantula,uy,geronimo,aprende,polaca,labrar,ashin,bellezas,reto,cuerpoCompleto,colectivo,pollaNova,insultar,callate,dosEnBragas,incurta,suda,copia,personaje,denegao,si,quirofanoCompleto,quirofano,muerta,fama,quiere,puton,higuera,esta,conozco,criticar,sombra,envidiosa,envidiaSana,ursula,lepego,camaleonica,dormir,anda,canalla}
 	@rm /usr/local/bin/{cuernos,cansa,libro}
+	@rm /usr/local/bin/{adelante,alamierda,ambipur,andaguapa,besos,conio,deto,fea,mundo,ojete,pollanova,tarrastro,tetas,toro}
 	@rm -rf /usr/local/bin/audiosVenenisticos/
 	@cat veneno.txt
 	@echo "\n La desinstalación ha sido completada \n\n"
@@ -516,6 +591,20 @@ install-forced:
 	@cp dormir /usr/local/bin
 	@cp anda /usr/local/bin
 	@cp canalla /usr/local/bin
+	@cp adelante /usr/local/bin
+	@cp alamierda /usr/local/bin
+	@cp ambipur /usr/local/bin
+	@cp andaguapa /usr/local/bin
+	@cp besos /usr/local/bin
+	@cp conio /usr/local/bin
+	@cp deto /usr/local/bin
+	@cp fea /usr/local/bin
+	@cp mundo /usr/local/bin
+	@cp ojete /usr/local/bin
+	@cp pollanova /usr/local/bin
+	@cp tarrastro /usr/local/bin
+	@cp tetas /usr/local/bin
+	@cp toro /usr/local/bin
 	@mkdir -p /usr/local/bin/audiosVenenisticos
 	@cp -rfp sounds /usr/local/bin/audiosVenenisticos
 
@@ -597,9 +686,21 @@ uninstall-forced:
 	@rm /usr/local/bin/camaleonica 
 	@rm /usr/local/bin/dormir 
 	@rm /usr/local/bin/anda 
-	@rm /usr/local/bin/canalla 
-
-
+	@rm /usr/local/bin/canalla
+	@rm /usr/local/bin/adelante
+	@rm /usr/local/bin/alamierda
+	@rm /usr/local/bin/ambipur
+	@rm /usr/local/bin/andaguapa
+	@rm /usr/local/bin/besos
+	@rm /usr/local/bin/conio
+	@rm /usr/local/bin/deto
+	@rm /usr/local/bin/fea
+	@rm /usr/local/bin/mundo
+	@rm /usr/local/bin/ojete
+	@rm /usr/local/bin/pollanova
+	@rm /usr/local/bin/tarrastro
+	@rm /usr/local/bin/tetas
+	@rm /usr/local/bin/toro
 	@rm -rf /usr/local/bin/audiosVenenisticos/
 	@cat veneno.txt
 	@echo "\n La desinstalación ha sido completada \n\n"
@@ -618,6 +719,7 @@ clean: banner transparente
 	@rm ./{mopa,boxer,ATS,amiga,marranona,aceite}
 	@rm ./{ordinaria,carne,perdon,maradona,espania,vos,talco,popeye,cuerpo,conosia,androcur,fisna,obesa,curriculum,caballo,canto,vida,furgolista,tarantula,uy,geronimo,aprende,polaca,labrar,ashin,bellezas,reto,cuerpoCompleto,colectivo,pollaNova,insultar,callate,dosEnBragas,incurta,suda,copia,personaje,denegao,si,quirofanoCompleto,quirofano,muerta,fama,quiere,puton,higuera,esta,conozco,criticar,sombra,envidiosa,envidiaSana,ursula,lepego,camaleonica,dormir,anda,canalla}
 	@rm ./{cuernos,cansa,libro}
+	@rm ./{adelante,alamierda,ambipur,andaguapa,besos,conio,deto,fea,mundo,ojete,pollanova,tarrastro,tetas,toro}
 
 
 clean-forced:
@@ -697,7 +799,21 @@ clean-forced:
 	@rm camaleonica 
 	@rm dormir 
 	@rm anda 
-	@rm canalla 
+	@rm canalla
+	@rm adelante
+	@rm alamierda
+	@rm ambipur
+	@rm andaguapa
+	@rm besos
+	@rm conio
+	@rm deto
+	@rm fea
+	@rm mundo
+	@rm ojete
+	@rm pollanova
+	@rm tarrastro
+	@rm tetas
+	@rm toro
 
 
 
@@ -735,9 +851,9 @@ impresion:
 	@tput smul;
 	@echo Compilando todas las frases disponibles de la Veneno
 	@tput rmul;
-	@echo Fecha: Martes 1 de Noviembre de 2016 - 14:00
-	@echo Version 1.0.3
-	@echo Disponibles: 75 "\n"
+	@echo Fecha: Domingo 6 de Noviembre de 2016 - 16:00
+	@echo Version 1.0.5
+	@echo Disponibles: 89 "\n"
 	@echo Hecho con mucho cariño por:
 	@echo "\t"José Antonio Córdoba Gómez "\t\t\t" pepitoenpeligro@gmail.com
 	@echo "\t"Marta Arenas Martínez "\t\t\t\t" martilla311@gmail.com
@@ -795,6 +911,10 @@ magenta:
 negro:
 	@tput bold;
 	@tput setaf 5;
+
+amarillo:
+	@tput bold;
+	@tput setaf 3;
 
 transparente:
 	@tput setaf 7;

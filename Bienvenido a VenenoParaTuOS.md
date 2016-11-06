@@ -124,6 +124,20 @@ Todos los recursos están organizados según temática (travestis, marisol, nova
  73. dormir
  74. anda
  75. canalla
+ 76. adelante
+ 77. alamierda
+ 78. ambipur
+ 79. andaguapa
+ 80. besos
+ 81. conio
+ 82. deto
+ 83. fea
+ 84. mundo
+ 85. ojete
+ 86. pollanova
+ 87. tarrastro
+ 88. tetas
+ 89. toro
 
 
 
@@ -191,7 +205,7 @@ TODO
         1. Adición de los audios correspondientes a los 28 recursos disponibles hasta el momento.
         2. Adición de los recursos {curriculum, caballo, canto, vida} con sus respectivos audios.
 
-    Versión actual: 1.0.4 - Miércoles 2 de Noviembre de 2016 a las 06:40
+    Versión previa: 1.0.4 - Miércoles 2 de Noviembre de 2016 a las 06:40
         1. Fixed: "manolo.cpp"
         2. Add: "furgolista.cpp"
         3. Add: "tarantula.cpp"
@@ -226,6 +240,22 @@ TODO
         32. Add: "fama.cpp"
         33. Add: "copia.cpp"
 
+    Versión actual: 1.0.5 - Domingo 6 de Noviembre de 2016 a las 16:00
+        1. Add: "adelante.cpp"
+        2. Add: "alamierda.cpp"
+        3. Add: "ambipur.cpp"
+        4. Add: "andaguapa.cpp"
+        5. Add: "besos.cpp"
+        6. Add: "conio.cpp"
+        7. Add: "deto.cpp"
+        8. Add: "fea.cpp"
+        9. Add: "mundo.cpp"
+        10. Add: "ojete.cpp"
+        11. Add: "pollanova.cpp"
+        12. Add: "tarrastro.cpp"
+        13. Add: "tetas.cpp"
+        14. Add: "toro.cpp"
+
 
 
 
@@ -233,7 +263,7 @@ TODO
     
     nova:
         1. androcurs.mp3 (sin procesar)
-        2. leopardo.mp3 (sin procesar)
+        2. leopardo.mp3 (PROCESADO COMPLETO)
         3. venenoNova1.mp3 (PROCESADO COMPLETO)
         4. venenoNova2.mp3 (PROCESADO COMPLETO)
 
@@ -248,12 +278,6 @@ TODO
     install:
         1.ayquerisa.mp3 (PROCESADO COMPLETO)
 
+
+
    
-
-
-
-
- Nova -> 58
- Propio -> 3
- Marisol -> 6
- Travestis -> 7

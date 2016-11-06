@@ -6,7 +6,7 @@
 #Ejecutar con sudo mejor
 
 # Objetivos importantes
-all: dependencias banner impresion rojo travestis verde marisol magenta nova negro propio amarillo leopardo restablecer install final
+all: dependencias banner impresion rojo travestis verde marisol magenta nova negro propio amarillo leopardo rojo cartier restablecer install final
 
 
 #=======================================================================================================================#
@@ -27,6 +27,8 @@ nova: ordinaria carne perdon maradona espania vos talco popeye cuerpo conosia an
 propio: cuernos cansa libro
 
 leopardo: adelante alamierda ambipur andaguapa besos conio deto fea mundo ojete pollanova tarrastro tetas toro
+
+cartier: negra cubata brilla poderio
 
 #=======================================================================================================================#
 
@@ -487,6 +489,26 @@ besos:
 	@echo "\t"Fecha: Viernes 4 de Noviembre de 2016 - 16:15 "\n"
 
 
+negra:
+	g++ ./cartier/negra.cpp -o negra
+	@echo "\t"Compilando negra
+	@echo "\t"Fecha: Domingo 6 de Noviembre de 2016 - 19:20 "\n"
+
+cubata:
+	g++ ./cartier/cubata.cpp -o cubata
+	@echo "\t"Compilando cubata
+	@echo "\t"Fecha: Domingo 6 de Noviembre de 2016 - 19:20 "\n"
+
+brilla:
+	g++ ./cartier/brilla.cpp -o brilla
+	@echo "\t"Compilando brilla
+	@echo "\t"Fecha: Domingo 6 de Noviembre de 2016 - 19:20 "\n"
+
+poderio:
+	g++ ./cartier/poderio.cpp -o poderio
+	@echo "\t"Compilando poderio
+	@echo "\t"Fecha: Domingo 6 de Noviembre de 2016 - 19:20 "\n"
+
 
 #=======================================================================================================================#
 
@@ -500,17 +522,19 @@ install:
 	@cp -f ./{ordinaria,carne,perdon,maradona,espania,vos,talco,popeye,cuerpo,conosia,androcur,fisna,obesa,curriculum,caballo,canto,vida,furgolista,tarantula,uy,geronimo,aprende,polaca,labrar,ashin,bellezas,reto,cuerpoCompleto,colectivo,pollaNova,insultar,callate,dosEnBragas,incurta,suda,copia,personaje,denegao,si,quirofanoCompleto,quirofano,muerta,fama,quiere,puton,higuera,esta,conozco,criticar,sombra,envidiosa,envidiaSana,ursula,lepego,camaleonica,dormir,anda,canalla} /usr/local/bin
 	@cp -f ./{cuernos,cansa,libro} /usr/local/bin
 	@cp -f ./{adelante,alamierda,ambipur,andaguapa,besos,conio,deto,fea,mundo,ojete,pollanova,tarrastro,tetas,toro} /usr/local/bin
+	@cp -f ./{negra,cubata,brilla,poderio}
 	@mkdir -p /usr/local/bin/audiosVenenisticos
 	@cp -rfp sounds /usr/local/bin/audiosVenenisticos
 
 # Desinstalación standard
 uninstall:
-	@rm /usr/local/bin/{rosi,sandra,manolo,camellona,sevillana,rocio,manola}
-	@rm /usr/local/bin/{mopa,boxer,ATS,amiga,marranona,aceite}
-	@rm /usr/local/bin/{ordinaria,carne,perdon,maradona,espania,vos,talco,popeye,cuerpo,conosia,androcur,fisna,obesa,curriculum,caballo,canto,vida,furgolista,tarantula,uy,geronimo,aprende,polaca,labrar,ashin,bellezas,reto,cuerpoCompleto,colectivo,pollaNova,insultar,callate,dosEnBragas,incurta,suda,copia,personaje,denegao,si,quirofanoCompleto,quirofano,muerta,fama,quiere,puton,higuera,esta,conozco,criticar,sombra,envidiosa,envidiaSana,ursula,lepego,camaleonica,dormir,anda,canalla}
-	@rm /usr/local/bin/{cuernos,cansa,libro}
-	@rm /usr/local/bin/{adelante,alamierda,ambipur,andaguapa,besos,conio,deto,fea,mundo,ojete,pollanova,tarrastro,tetas,toro}
-	@rm -rf /usr/local/bin/audiosVenenisticos/
+	-rm /usr/local/bin/{rosi,sandra,manolo,camellona,sevillana,rocio,manola}
+	-rm /usr/local/bin/{mopa,boxer,ATS,amiga,marranona,aceite}
+	-rm /usr/local/bin/{ordinaria,carne,perdon,maradona,espania,vos,talco,popeye,cuerpo,conosia,androcur,fisna,obesa,curriculum,caballo,canto,vida,furgolista,tarantula,uy,geronimo,aprende,polaca,labrar,ashin,bellezas,reto,cuerpoCompleto,colectivo,pollaNova,insultar,callate,dosEnBragas,incurta,suda,copia,personaje,denegao,si,quirofanoCompleto,quirofano,muerta,fama,quiere,puton,higuera,esta,conozco,criticar,sombra,envidiosa,envidiaSana,ursula,lepego,camaleonica,dormir,anda,canalla}
+	-rm /usr/local/bin/{cuernos,cansa,libro}
+	-rm /usr/local/bin/{adelante,alamierda,ambipur,andaguapa,besos,conio,deto,fea,mundo,ojete,pollanova,tarrastro,tetas,toro}
+	-rm /usr/local/bin/{negra,cubata,brilla,poderio}	
+	-rm -rf /usr/local/bin/audiosVenenisticos/
 	@cat veneno.txt
 	@echo "\n La desinstalación ha sido completada \n\n"
 
@@ -607,6 +631,10 @@ install-forced:
 	@cp tarrastro /usr/local/bin
 	@cp tetas /usr/local/bin
 	@cp toro /usr/local/bin
+	@cp negra /usr/local/bin
+	@cp cubata /usr/local/bin
+	@cp brilla /usr/local/bin
+	@cp poderio /usr/local/bin
 	@mkdir -p /usr/local/bin/audiosVenenisticos
 	@cp -rfp sounds /usr/local/bin/audiosVenenisticos
 
@@ -614,96 +642,100 @@ install-forced:
 # Desinstalación forzosa
 uninstall-forced:
 	@echo Desinstalando de forma forzosa
-	@rm /usr/local/bin/rosi
-	@rm /usr/local/bin/camellona 
-	@rm /usr/local/bin/manola  
-	@rm /usr/local/bin/manolo 
-	@rm /usr/local/bin/rocio 
-	@rm /usr/local/bin/rosi 
-	@rm /usr/local/bin/sandra 
-	@rm /usr/local/bin/sevillana 
-	@rm /usr/local/bin/aceite 
-	@rm /usr/local/bin/amiga 
-	@rm /usr/local/bin/ATS 
-	@rm /usr/local/bin/boxer 
-	@rm /usr/local/bin/marranona 
-	@rm /usr/local/bin/mopa 
-	@rm /usr/local/bin/androcur 
-	@rm /usr/local/bin/carne 
-	@rm /usr/local/bin/conosia 
-	@rm /usr/local/bin/cuerpo 
-	@rm /usr/local/bin/espania 
-	@rm /usr/local/bin/fisna 
-	@rm /usr/local/bin/maradona 
-	@rm /usr/local/bin/obesa 
-	@rm /usr/local/bin/ordinaria 
-	@rm /usr/local/bin/perdon 
-	@rm /usr/local/bin/popeye 
-	@rm /usr/local/bin/talco 
-	@rm /usr/local/bin/vos 
-	@rm /usr/local/bin/cansa 
-	@rm /usr/local/bin/cuernos
-	@rm /usr/local/bin/libro
-	@rm /usr/local/bin/curriculum
-	@rm /usr/local/bin/caballo
-	@rm /usr/local/bin/canto
-	@rm /usr/local/bin/vida
-	@rm /usr/local/bin/furgolista
-	@rm /usr/local/bin/tarantula
-	@rm /usr/local/bin/uy 
-	@rm /usr/local/bin/geronimo 
-	@rm /usr/local/bin/aprende 
-	@rm /usr/local/bin/polaca 
-	@rm /usr/local/bin/labrar 
-	@rm /usr/local/bin/ashin 
-	@rm /usr/local/bin/bellezas 
-	@rm /usr/local/bin/reto 
-	@rm /usr/local/bin/cuerpoCompleto 
-	@rm /usr/local/bin/colectivo 
-	@rm /usr/local/bin/pollaNova 
-	@rm /usr/local/bin/insultar 
-	@rm /usr/local/bin/callate 
-	@rm /usr/local/bin/dosEnBragas 
-	@rm /usr/local/bin/incurta 
-	@rm /usr/local/bin/suda 
-	@rm /usr/local/bin/copia 
-	@rm /usr/local/bin/personaje 
-	@rm /usr/local/bin/denegao 
-	@rm /usr/local/bin/si 
-	@rm /usr/local/bin/quirofanoCompleto 
-	@rm /usr/local/bin/quirofano 
-	@rm /usr/local/bin/muerta 
-	@rm /usr/local/bin/fama 
-	@rm /usr/local/bin/quiere 
-	@rm /usr/local/bin/puton 
-	@rm /usr/local/bin/higuera 
-	@rm /usr/local/bin/esta 
-	@rm /usr/local/bin/conozco 
-	@rm /usr/local/bin/criticar 
-	@rm /usr/local/bin/sombra 
-	@rm /usr/local/bin/envidiosa 
-	@rm /usr/local/bin/envidiaSana 
-	@rm /usr/local/bin/ursula 
-	@rm /usr/local/bin/lepego 
-	@rm /usr/local/bin/camaleonica 
-	@rm /usr/local/bin/dormir 
-	@rm /usr/local/bin/anda 
-	@rm /usr/local/bin/canalla
-	@rm /usr/local/bin/adelante
-	@rm /usr/local/bin/alamierda
-	@rm /usr/local/bin/ambipur
-	@rm /usr/local/bin/andaguapa
-	@rm /usr/local/bin/besos
-	@rm /usr/local/bin/conio
-	@rm /usr/local/bin/deto
-	@rm /usr/local/bin/fea
-	@rm /usr/local/bin/mundo
-	@rm /usr/local/bin/ojete
-	@rm /usr/local/bin/pollanova
-	@rm /usr/local/bin/tarrastro
-	@rm /usr/local/bin/tetas
-	@rm /usr/local/bin/toro
-	@rm -rf /usr/local/bin/audiosVenenisticos/
+	-rm /usr/local/bin/rosi
+	-rm /usr/local/bin/camellona 
+	-rm /usr/local/bin/manola  
+	-rm /usr/local/bin/manolo 
+	-rm /usr/local/bin/rocio 
+	-rm /usr/local/bin/rosi 
+	-rm /usr/local/bin/sandra 
+	-rm /usr/local/bin/sevillana 
+	-rm /usr/local/bin/aceite 
+	-rm /usr/local/bin/amiga 
+	-rm /usr/local/bin/ATS 
+	-rm /usr/local/bin/boxer 
+	-rm /usr/local/bin/marranona 
+	-rm /usr/local/bin/mopa 
+	-rm /usr/local/bin/androcur 
+	-rm /usr/local/bin/carne 
+	-rm /usr/local/bin/conosia 
+	-rm /usr/local/bin/cuerpo 
+	-rm /usr/local/bin/espania 
+	-rm /usr/local/bin/fisna 
+	-rm /usr/local/bin/maradona 
+	-rm /usr/local/bin/obesa 
+	-rm /usr/local/bin/ordinaria 
+	-rm /usr/local/bin/perdon 
+	-rm /usr/local/bin/popeye 
+	-rm /usr/local/bin/talco 
+	-rm /usr/local/bin/vos 
+	-rm /usr/local/bin/cansa 
+	-rm /usr/local/bin/cuernos
+	-rm /usr/local/bin/libro
+	-rm /usr/local/bin/curriculum
+	-rm /usr/local/bin/caballo
+	-rm /usr/local/bin/canto
+	-rm /usr/local/bin/vida
+	-rm /usr/local/bin/furgolista
+	-rm /usr/local/bin/tarantula
+	-rm /usr/local/bin/uy 
+	-rm /usr/local/bin/geronimo 
+	-rm /usr/local/bin/aprende 
+	-rm /usr/local/bin/polaca 
+	-rm /usr/local/bin/labrar 
+	-rm /usr/local/bin/ashin 
+	-rm /usr/local/bin/bellezas 
+	-rm /usr/local/bin/reto 
+	-rm /usr/local/bin/cuerpoCompleto 
+	-rm /usr/local/bin/colectivo 
+	-rm /usr/local/bin/pollaNova 
+	-rm /usr/local/bin/insultar 
+	-rm /usr/local/bin/callate 
+	-rm /usr/local/bin/dosEnBragas 
+	-rm /usr/local/bin/incurta 
+	-rm /usr/local/bin/suda 
+	-rm /usr/local/bin/copia 
+	-rm /usr/local/bin/personaje 
+	-rm /usr/local/bin/denegao 
+	-rm /usr/local/bin/si 
+	-rm /usr/local/bin/quirofanoCompleto 
+	-rm /usr/local/bin/quirofano 
+	-rm /usr/local/bin/muerta 
+	-rm /usr/local/bin/fama 
+	-rm /usr/local/bin/quiere 
+	-rm /usr/local/bin/puton 
+	-rm /usr/local/bin/higuera 
+	-rm /usr/local/bin/esta 
+	-rm /usr/local/bin/conozco 
+	-rm /usr/local/bin/criticar 
+	-rm /usr/local/bin/sombra 
+	-rm /usr/local/bin/envidiosa 
+	-rm /usr/local/bin/envidiaSana 
+	-rm /usr/local/bin/ursula 
+	-rm /usr/local/bin/lepego 
+	-rm /usr/local/bin/camaleonica 
+	-rm /usr/local/bin/dormir 
+	-rm /usr/local/bin/anda 
+	-rm /usr/local/bin/canalla
+	-rm /usr/local/bin/adelante
+	-rm /usr/local/bin/alamierda
+	-rm /usr/local/bin/ambipur
+	-rm /usr/local/bin/andaguapa
+	-rm /usr/local/bin/besos
+	-rm /usr/local/bin/conio
+	-rm /usr/local/bin/deto
+	-rm /usr/local/bin/fea
+	-rm /usr/local/bin/mundo
+	-rm /usr/local/bin/ojete
+	-rm /usr/local/bin/pollanova
+	-rm /usr/local/bin/tarrastro
+	-rm /usr/local/bin/tetas
+	-rm /usr/local/bin/toro
+	-rm /usr/local/bin/negra
+	-rm /usr/local/bin/cubata
+	-rm /usr/local/bin/brilla
+	-rm /usr/local/bin/poderio
+	-rm -rf /usr/local/bin/audiosVenenisticos/
 	@cat veneno.txt
 	@echo "\n La desinstalación ha sido completada \n\n"
 
@@ -717,105 +749,109 @@ uninstall-forced:
 clean: banner transparente
 	@echo Limpiando todos los archivos ejecutables
 	@tput sgr0;
-	@rm ./{rosi,sandra,manolo,camellona,sevillana,rocio,manola}
-	@rm ./{mopa,boxer,ATS,amiga,marranona,aceite}
-	@rm ./{ordinaria,carne,perdon,maradona,espania,vos,talco,popeye,cuerpo,conosia,androcur,fisna,obesa,curriculum,caballo,canto,vida,furgolista,tarantula,uy,geronimo,aprende,polaca,labrar,ashin,bellezas,reto,cuerpoCompleto,colectivo,pollaNova,insultar,callate,dosEnBragas,incurta,suda,copia,personaje,denegao,si,quirofanoCompleto,quirofano,muerta,fama,quiere,puton,higuera,esta,conozco,criticar,sombra,envidiosa,envidiaSana,ursula,lepego,camaleonica,dormir,anda,canalla}
-	@rm ./{cuernos,cansa,libro}
-	@rm ./{adelante,alamierda,ambipur,andaguapa,besos,conio,deto,fea,mundo,ojete,pollanova,tarrastro,tetas,toro}
+	-rm ./{rosi,sandra,manolo,camellona,sevillana,rocio,manola}
+	-rm ./{mopa,boxer,ATS,amiga,marranona,aceite}
+	-rm ./{ordinaria,carne,perdon,maradona,espania,vos,talco,popeye,cuerpo,conosia,androcur,fisna,obesa,curriculum,caballo,canto,vida,furgolista,tarantula,uy,geronimo,aprende,polaca,labrar,ashin,bellezas,reto,cuerpoCompleto,colectivo,pollaNova,insultar,callate,dosEnBragas,incurta,suda,copia,personaje,denegao,si,quirofanoCompleto,quirofano,muerta,fama,quiere,puton,higuera,esta,conozco,criticar,sombra,envidiosa,envidiaSana,ursula,lepego,camaleonica,dormir,anda,canalla}
+	-rm ./{cuernos,cansa,libro}
+	-rm ./{adelante,alamierda,ambipur,andaguapa,besos,conio,deto,fea,mundo,ojete,pollanova,tarrastro,tetas,toro}
+	-rm ./{negra,cubata,brilla,poderio}
 
 clean-forced:
 	@echo Limpiando todos los archivos ejecutables
 	@tput sgr0;
-	@rm rosi
-	@rm camellona 
-	@rm manola  
-	@rm manolo 
-	@rm rocio 
-	@rm rosi 
-	@rm sandra 
-	@rm sevillana 
-	@rm aceite 
-	@rm amiga 
-	@rm ATS 
-	@rm boxer 
-	@rm marranona 
-	@rm mopa 
-	@rm androcur 
-	@rm carne 
-	@rm conosia 
-	@rm cuerpo 
-	@rm espania 
-	@rm fisna 
-	@rm maradona 
-	@rm obesa 
-	@rm ordinaria 
-	@rm perdon 
-	@rm popeye 
-	@rm talco 
-	@rm vos 
-	@rm cansa 
-	@rm cuernos 
-	@rm libro
-	@rm curriculum
-	@rm caballo
-	@rm canto
-	@rm vida
-	@rm furgolista
-	@rm tarantula
-	@rm uy 
-	@rm geronimo 
-	@rm aprende 
-	@rm polaca 
-	@rm labrar 
-	@rm ashin 
-	@rm bellezas 
-	@rm reto 
-	@rm cuerpoCompleto 
-	@rm colectivo 
-	@rm pollaNova 
-	@rm insultar 
-	@rm callate 
-	@rm dosEnBragas 
-	@rm incurta 
-	@rm suda 
-	@rm copia 
-	@rm personaje 
-	@rm denegao 
-	@rm si 
-	@rm quirofanoCompleto 
-	@rm quirofano 
-	@rm muerta 
-	@rm fama 
-	@rm quiere 
-	@rm puton 
-	@rm higuera 
-	@rm esta 
-	@rm conozco 
-	@rm criticar 
-	@rm sombra 
-	@rm envidiosa 
-	@rm envidiaSana 
-	@rm ursula 
-	@rm lepego 
-	@rm camaleonica 
-	@rm dormir 
-	@rm anda 
-	@rm canalla
-	@rm adelante
-	@rm alamierda
-	@rm ambipur
-	@rm andaguapa
-	@rm besos
-	@rm conio
-	@rm deto
-	@rm fea
-	@rm mundo
-	@rm ojete
-	@rm pollanova
-	@rm tarrastro
-	@rm tetas
-	@rm toro
-
+	-rm rosi
+	-rm camellona 
+	-rm manola  
+	-rm manolo 
+	-rm rocio 
+	-rm rosi 
+	-rm sandra 
+	-rm sevillana 
+	-rm aceite 
+	-rm amiga 
+	-rm ATS 
+	-rm boxer 
+	-rm marranona 
+	-rm mopa 
+	-rm androcur 
+	-rm carne 
+	-rm conosia 
+	-rm cuerpo 
+	-rm espania 
+	-rm fisna 
+	-rm maradona 
+	-rm obesa 
+	-rm ordinaria 
+	-rm perdon 
+	-rm popeye 
+	-rm talco 
+	-rm vos 
+	-rm cansa 
+	-rm cuernos 
+	-rm libro
+	-rm curriculum
+	-rm caballo
+	-rm canto
+	-rm vida
+	-rm furgolista
+	-rm tarantula
+	-rm uy 
+	-rm geronimo 
+	-rm aprende 
+	-rm polaca 
+	-rm labrar 
+	-rm ashin 
+	-rm bellezas 
+	-rm reto 
+	-rm cuerpoCompleto 
+	-rm colectivo 
+	-rm pollaNova 
+	-rm insultar 
+	-rm callate 
+	-rm dosEnBragas 
+	-rm incurta 
+	-rm suda 
+	-rm copia 
+	-rm personaje 
+	-rm denegao 
+	-rm si 
+	-rm quirofanoCompleto 
+	-rm quirofano 
+	-rm muerta 
+	-rm fama 
+	-rm quiere 
+	-rm puton 
+	-rm higuera 
+	-rm esta 
+	-rm conozco 
+	-rm criticar 
+	-rm sombra 
+	-rm envidiosa 
+	-rm envidiaSana 
+	-rm ursula 
+	-rm lepego 
+	-rm camaleonica 
+	-rm dormir 
+	-rm anda 
+	-rm canalla
+	-rm adelante
+	-rm alamierda
+	-rm ambipur
+	-rm andaguapa
+	-rm besos
+	-rm conio
+	-rm deto
+	-rm fea
+	-rm mundo
+	-rm ojete
+	-rm pollanova
+	-rm tarrastro
+	-rm tetas
+	-rm toro
+	-rm negra
+	-rm cubata
+	-rm brilla
+	-rm poderio
 
 #=======================================================================================================================#
 

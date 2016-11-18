@@ -65,8 +65,8 @@ Todos los recursos están organizados según temática (travestis, marisol, nova
  12. marranona
  13. mopa
  14. androcur
- 15. carne
- 16. conosia
+ 15. carne 
+ 16. conosia 
  17. cuerpo
  18. espania
  19. fisna
@@ -142,6 +142,23 @@ Todos los recursos están organizados según temática (travestis, marisol, nova
  91. cubata
  92. negra
  93. poderio
+ 94. aprieta
+ 95. braguitas
+ 96. brevas
+ 97. callaros
+ 98. caso
+ 99. cristina
+ 100. farruquito
+ 101. labio
+ 102. limusina
+ 103. mala
+ 104. maria
+ 105. morcilla
+ 106. noche
+ 107. obregon
+ 108. rojo
+ 109. tracatra
+ 110. woman
 
 
 
@@ -280,12 +297,10 @@ TODO
         1. lavidaibaenserio.mp3 (PROCESADO COMPLETO)
         2. cuernos.mp3 (PROCESADO COMPLETO)
         3. cansa.mp3 (PROCESADO COMPLETO)
+	4. boda.mp3 (PROCESADO COMPLETO)
 
     marisol:
         1. cirujana.mp3 (sin procesar)
-	
-    cartier:
-    	2. cartier.mp3 (PROCESADO COMPLETO)
 
     install:
         1.ayquerisa.mp3 (PROCESADO COMPLETO)

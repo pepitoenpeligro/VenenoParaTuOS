@@ -6,7 +6,7 @@
 #Ejecutar con sudo mejor
 
 # Objetivos importantes
-all: dependencias banner impresion rojo travestis verde marisol magenta nova negro propio amarillo leopardo rojo cartier restablecer install final
+all: dependencias banner impresion rojo travestis verde marisol magenta nova negro propio amarillo leopardo cartier boda restablecer install final
 
 
 #=======================================================================================================================#
@@ -30,6 +30,8 @@ leopardo: adelante alamierda ambipur andaguapa besos conio deto fea mundo ojete 
 
 cartier: negra cubata brilla poderio
 
+boda: callaros maria cristina mala farruquito woman limusina rojo obregon aprieta tracatra morcilla brevas caso noche braguitas labio
+
 #=======================================================================================================================#
 
 
@@ -37,7 +39,7 @@ cartier: negra cubata brilla poderio
 # Objetivos separados
 ATS:
 	g++ ./marisol/ATS.cpp -o ATS
-	@echo "\t"Compilando el ATS $(@tput sgr0)
+	@echo "\t"Compilando ATS 
 	@echo "\t"Fecha: Domigo 30 de Octubre de 2016 - 21:00 "\n"
 
 amiga:
@@ -510,6 +512,92 @@ poderio:
 	@echo "\t"Fecha: Domingo 6 de Noviembre de 2016 - 19:20 "\n"
 
 
+callaros:
+	g++ ./boda/callaros.cpp -o callaros
+	@echo "\t"Compilando callaros
+	@echo "\t"Fecha: Lunes 14 de Noviembre de 2016 - 19:20 "\n"
+
+maria:
+	g++ ./boda/maria.cpp -o maria
+	@echo "\t"Compilando maria
+	@echo "\t"Fecha: Lunes 14 de Noviembre de 2016 - 19:20 "\n"
+
+cristina:
+	g++ ./boda/cristina.cpp -o cristina
+	@echo "\t"Compilando cristina
+	@echo "\t"Fecha: Lunes 14 de Noviembre de 2016 - 19:20 "\n"
+
+mala:
+	g++ ./boda/mala.cpp -o mala
+	@echo "\t"Compilando mala
+	@echo "\t"Fecha: Lunes 14 de Noviembre de 2016 - 19:20 "\n"
+
+farruquito:
+	g++ ./boda/farruquito.cpp -o farruquito
+	@echo "\t"Compilando farruquito
+	@echo "\t"Fecha: Lunes 14 de Noviembre de 2016 - 19:20 "\n"
+
+woman:
+	g++ ./boda/woman.cpp -o woman
+	@echo "\t"Compilando woman
+	@echo "\t"Fecha: Lunes 14 de Noviembre de 2016 - 19:20 "\n"
+
+limusina:
+	g++ ./boda/limusina.cpp -o limusina
+	@echo "\t"Compilando limusina
+	@echo "\t"Fecha: Jueves 17 de Noviembre de 2016 - 13:00 "\n"
+
+rojo:
+	g++ ./boda/rojo.cpp -o rojo
+	@echo "\t"Compilando rojo
+	@echo "\t"Fecha: Jueves 17 de Noviembre de 2016 - 13:00 "\n"
+
+obregon:
+	g++ ./boda/obregon.cpp -o obregon
+	@echo "\t"Compilando obregon
+	@echo "\t"Fecha: Jueves 17 de Noviembre de 2016 - 13:00 "\n"
+
+aprieta:
+	g++ ./boda/aprieta.cpp -o aprieta
+	@echo "\t"Compilando aprieta
+	@echo "\t"Fecha: Jueves 17 de Noviembre de 2016 - 13:00 "\n"
+
+tracatra:
+	g++ ./boda/tracatra.cpp -o tracatra
+	@echo "\t"Compilando tracatra
+	@echo "\t"Fecha: Jueves 17 de Noviembre de 2016 - 13:00 "\n"
+
+morcilla:
+	g++ ./boda/morcilla.cpp -o morcilla
+	@echo "\t"Compilando morcilla
+	@echo "\t"Fecha: Jueves 17 de Noviembre de 2016 - 13:00 "\n"
+
+brevas:
+	g++ ./boda/brevas.cpp -o brevas
+	@echo "\t"Compilando brevas
+	@echo "\t"Fecha: Jueves 17 de Noviembre de 2016 - 13:00 "\n"
+
+caso:
+	g++ ./boda/caso.cpp -o caso
+	@echo "\t"Compilando caso
+	@echo "\t"Fecha: Viernes 18 de Noviembre de 2016 - 13:00 "\n"
+
+noche:
+	g++ ./boda/noche.cpp -o noche
+	@echo "\t"Compilando noche
+	@echo "\t"Fecha: Viernes 18 de Noviembre de 2016 - 13:00 "\n"
+
+braguitas:
+	g++ ./boda/braguitas.cpp -o braguitas
+	@echo "\t"Compilando braguitas
+	@echo "\t"Fecha: Viernes 18 de Noviembre de 2016 - 13:00 "\n"
+
+
+labio:
+	g++ ./boda/labio.cpp -o labio
+	@echo "\t"Compilando labio
+	@echo "\t"Fecha: Viernes 18 de Noviembre de 2016 - 13:00 "\n"
+
 #=======================================================================================================================#
 
 
@@ -523,6 +611,7 @@ install:
 	@cp -f ./{cuernos,cansa,libro} /usr/local/bin
 	@cp -f ./{adelante,alamierda,ambipur,andaguapa,besos,conio,deto,fea,mundo,ojete,pollanova,tarrastro,tetas,toro} /usr/local/bin
 	@cp -f ./{negra,cubata,brilla,poderio}
+	@cp -f ./{callaros,maria, cristina,mala, farruquito,woman, limusina, rojo, obregon, aprieta, tracatra, morcilla, brevas, caso, noche, braguitas, labio}
 	@mkdir -p /usr/local/bin/audiosVenenisticos
 	@cp -rfp sounds /usr/local/bin/audiosVenenisticos
 
@@ -533,7 +622,8 @@ uninstall:
 	-rm /usr/local/bin/{ordinaria,carne,perdon,maradona,espania,vos,talco,popeye,cuerpo,conosia,androcur,fisna,obesa,curriculum,caballo,canto,vida,furgolista,tarantula,uy,geronimo,aprende,polaca,labrar,ashin,bellezas,reto,cuerpoCompleto,colectivo,pollaNova,insultar,callate,dosEnBragas,incurta,suda,copia,personaje,denegao,si,quirofanoCompleto,quirofano,muerta,fama,quiere,puton,higuera,esta,conozco,criticar,sombra,envidiosa,envidiaSana,ursula,lepego,camaleonica,dormir,anda,canalla}
 	-rm /usr/local/bin/{cuernos,cansa,libro}
 	-rm /usr/local/bin/{adelante,alamierda,ambipur,andaguapa,besos,conio,deto,fea,mundo,ojete,pollanova,tarrastro,tetas,toro}
-	-rm /usr/local/bin/{negra,cubata,brilla,poderio}	
+	-rm /usr/local/bin/{negra,cubata,brilla,poderio}
+	-rm /usr/local/bin/{callaros,maria, cristina,mala, farruquito,woman, limusina, rojo, obregon, aprieta, tracatra, morcilla, brevas, caso, noche, braguitas, labio}	
 	-rm -rf /usr/local/bin/audiosVenenisticos/
 	@cat veneno.txt
 	@echo "\n La desinstalación ha sido completada \n\n"
@@ -635,6 +725,23 @@ install-forced:
 	@cp cubata /usr/local/bin
 	@cp brilla /usr/local/bin
 	@cp poderio /usr/local/bin
+	@cp callaros /usr/local/bin
+	@cp maria /usr/local/bin
+	@cp cristina /usr/local/bin
+	@cp mala /usr/local/bin
+	@cp farruquito /usr/local/bin
+	@cp woman /usr/local/bin
+	@cp limusina /usr/local/bin
+	@cp rojo /usr/local/bin
+	@cp obregon /usr/local/bin
+	@cp aprieta /usr/local/bin
+	@cp tracatra /usr/local/bin
+	@cp morcilla /usr/local/bin
+	@cp brevas /usr/local/bin
+	@cp caso /usr/local/bin
+	@cp  noche /usr/local/bin
+	@cp  braguitas /usr/local/bin
+	@cp  labio /usr/local/bin
 	@mkdir -p /usr/local/bin/audiosVenenisticos
 	@cp -rfp sounds /usr/local/bin/audiosVenenisticos
 
@@ -735,6 +842,23 @@ uninstall-forced:
 	-rm /usr/local/bin/cubata
 	-rm /usr/local/bin/brilla
 	-rm /usr/local/bin/poderio
+	-rm /usr/local/bin/callaros
+	-rm /usr/local/bin/maria
+	-rm /usr/local/bin/cristina
+	-rm /usr/local/bin/mala
+	-rm /usr/local/bin/farruquito
+	-rm /usr/local/bin/woman
+	-rm /usr/local/bin/limusina
+	-rm /usr/local/bin/rojo
+	-rm /usr/local/bin/obregon
+	-rm /usr/local/bin/aprieta
+	-rm /usr/local/bin/tracatra
+	-rm /usr/local/bin/morcilla
+	-rm /usr/local/bin/brevas
+	-rm /usr/local/bin/caso
+	-rm /usr/local/bin/ noche
+	-rm /usr/local/bin/ braguitas
+	-rm /usr/local/bin/ labio
 	-rm -rf /usr/local/bin/audiosVenenisticos/
 	@cat veneno.txt
 	@echo "\n La desinstalación ha sido completada \n\n"
@@ -755,6 +879,7 @@ clean: banner transparente
 	-rm ./{cuernos,cansa,libro}
 	-rm ./{adelante,alamierda,ambipur,andaguapa,besos,conio,deto,fea,mundo,ojete,pollanova,tarrastro,tetas,toro}
 	-rm ./{negra,cubata,brilla,poderio}
+	-rm ./{callaros,maria, cristina,mala, farruquito,woman, limusina, rojo, obregon, aprieta, tracatra, morcilla, brevas, caso, noche, braguitas, labio}
 
 clean-forced:
 	@echo Limpiando todos los archivos ejecutables
@@ -852,7 +977,23 @@ clean-forced:
 	-rm cubata
 	-rm brilla
 	-rm poderio
-
+	-rm callaros
+	-rm maria
+	-rm cristina
+	-rm mala
+	-rm farruquito	
+	-rm woman
+	-rm limusina
+	-rm rojo
+	-rm obregon
+	-rm aprieta
+	-rm tracatra
+	-rm morcilla
+	-rm brevas
+	-rm caso
+	-rm noche
+	-rm braguitas
+	-rm labio
 #=======================================================================================================================#
 
 
